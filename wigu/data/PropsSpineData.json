@@ -1,0 +1,36 @@
+{
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone2", "parent": "root", "length": 79.73, "x": 0.6, "y": 115.89, "rotation": 90 }
+],
+"slots": [
+	{ "name": "moving_prop", "bone": "bone2", "attachment": "moving_prop" },
+	{ "name": "shop_bg_fountain_a", "bone": "root" }
+],
+"skins": {
+	"big_waterwheel": {
+		"moving_prop": {
+			"moving_prop": { "name": "pound_bg_water_wheel", "rotation": -90, "width": 522, "height": 509 }
+		}
+	},
+	"big_windmill": {
+		"moving_prop": {
+			"moving_prop": { "name": "pound_bg_windmill_a", "rotation": -90, "width": 425, "height": 425 }
+		}
+	}
+},
+"animations": {
+	"big_windmill_waterwheel": {
+		"bones": {
+			"bone2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.8333, "angle": -90 },
+					{ "time": 1.6666, "angle": 180 },
+					{ "time": 3.3333, "angle": 0 }
+				]
+			}
+		}
+	}
+}
+}

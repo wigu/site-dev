@@ -1,0 +1,19 @@
+
+Props-1.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+pound_bg_water_wheel
+  rotate: false
+  xy: 2, 429
+  size: 522, 509
+  orig: 522, 509
+  offset: 0, 0
+  index: -1
+pound_bg_windmill_a
+  rotate: false
+  xy: 2, 2
+  size: 425, 425
+  orig: 425, 425
+  offset: 0, 0
+  index: -1

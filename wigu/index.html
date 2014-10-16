@@ -1,0 +1,1200 @@
+<!DOCTYPE html>
+
+<html class="no-js">
+	
+<head>
+    <title>WIGU Games | Games for the Curious</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- 	<meta name="keywords" content="wigugames, wigu, game, games, mobile, educational, tween, teen, tweens, teens, kids, children, parents, ios, profession, explore, grow up, young, fun, top, cool, doctor, life, simulation, role-play, roleplay, rpg, simulations, simulator, diagnose, treat, build, doctor life"> -->
+	<meta name="description" content="Developing games for the curious.">
+	<meta name="author" content="WIGU Games">
+
+
+<!--========================================
+Stylesheets
+=========================================-->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">    <!-- Bootstrap -->
+    <link href="css/wigu.css" rel="stylesheet" media="screen">    <!-- Main stylesheet -->
+	<link href='http://fonts.googleapis.com/css?family=Josefin+Sans|Abril+Fatface|Galindo' rel='stylesheet' type='text/css'>
+	<link href="css/jquery.fancybox.css" rel="stylesheet" media="screen">
+	<link href="css/jquery.fancybox-buttons.css" rel="stylesheet" media="screen"> 
+	<script type="text/javascript" async src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.0/modernizr.min.js"></script>
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script> <!-- Google Maps -->
+	
+	<link rel="shortcut icon" href="favicon.ico" type="image/ico"/>
+	
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-42385945-1', 'wigugames.com');
+	  ga('require', 'displayfeatures');
+	  ga('send', 'pageview');
+
+	</script>
+	<script src="bin/pixi.dev.js"></script>
+	
+</head>
+  
+  
+<body>
+
+
+
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=199206370262577";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- ==============================================
+Preloader
+=============================================== -->
+	<div id='preloader'>
+		<div id='loading-animation'></div>
+	</div>
+
+<!--========================================
+Navigation Bar
+=========================================-->
+		<nav class="navbar-wigu navbar navbar-default" role="navigation">
+			<div class="navbar-dashed">
+			  <!-- Brand and toggle get grouped for better mobile display -->
+			  <div class="navbar-header">
+
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-wigu">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#"><img src="css/images/logo_wigu.png"/></a>
+			  </div>
+
+			  <!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="navbar-collapse collapse" id="navigation-wigu">
+				
+					<ul class="nav navbar-nav navbar-right">
+						<li class="nav-divide"><a href="#home">Home</a></li>
+						<li class="nav-divide"><a href="#about">About Us</a></li>
+						<li class="dropdown nav-divide">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#lifeseries">Our Games <b class="caret"></b></a>
+							<ul class="dropdown-menu">
+							<!-- 	<li class="dropdown-header">Life Series</li> -->
+								<li><a href="doctorlife.html">Doctor Life <span class="label label-primary istok">Released!</span></a></li>
+								<li><a href ="doctorlife.html">Doctor Life for Kids  <span class="label label-primary istok">Released!</span></a></li>
+								<li><a>Canine Life  <span class="label label-default istok">Coming Soon!</span></a></li>
+								<li><a>Chef Life  <span class="label label-default istok">In development</span></a></li>
+<!-- 								<li class="divider"></li>
+								<li class="dropdown-header">Casual</li>
+								<li><a href="#">Battle Forge</a></li> -->
+							</ul>
+						</li>
+						<li class="nav-divide"><a href="#community">Community</a></li>
+						<li><a href="#contact">Contact</a></li>
+						<li><a class ="facebook-twitter" href="http://www.facebook.com/wigugames" target="_blank"><img src="css/images/button_facebook.png"/></a></li>
+						<li><a class ="facebook-twitter" href="http://www.twitter.com/wigugames" target="_blank"><img src="css/images/button_twitter.png"/></a></li>
+						
+					</ul>
+				</div><!-- /.navbar-collapse -->
+			</div>
+		</nav>
+
+
+<!--========================================
+Home Page
+=========================================-->
+	<section id="home" class="section" >
+		<h1>Home</h1>
+		<a href = "http://bit.ly/1iuImwr" target= "_blank"><img id="title" class="img-responsive" src="css/images/title_01.png"/></a>
+		
+
+		<div id = "wigu-container" class ="container bg-line">
+			<!--Facebook Buttons-->
+			<div class="row facebook-buttons">
+				<div class="col-sm-9">
+					<div class="fb-like" data-href="https://www.facebook.com/wigugames" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+				</div>
+				<div class="col-sm-3">
+					<div class="fb-follow" data-href="http://www.facebook.com/wigugames" data-height="20" data-width="350" data-colorscheme="light" data-layout="standard" data-show-faces="false"></div>
+					
+				</div>
+			</div>
+			
+			
+					<div  id="sidecanvas" class=""></div>
+			
+			<!-- -----
+			jumbotron 
+			------ -->
+			
+			<div  id="mainpagecanvas" class="jumbotron">
+				<img id="img_left" src = "css/images/tree_b.png"></img>
+				<img id="img_right" src = "css/images/tree_a.png"></img>
+			    <h2 class = "oleo bold">Beta Test!</h2>
+			    <p>I want to beta test Canine Life!</p>
+				<br>
+				
+				<!-- signup-mainpage Button -->
+				
+			    <p><input id = "signup-mainpage" type="button" class="jumpingicon btn btn-lg" role="button" data-toggle="collapse" data-target="#form-mainpagecanvas"></button></p>
+				<br>
+			
+				
+				<!-- form-mainpage Form -->
+				<form role="form" action="insert.php" method="post">
+					<div id = "form-mainpagecanvas" class="collapse ">
+						
+						<div class="form-group col-md-6">
+							<label>First Name</label>
+							<input type="text" name="first_name" class="form-control" placeholder="Enter first name" required aria-required=”true”>
+						</div>
+						
+						<div class="form-group col-md-6">
+							<label>Last Name</label>
+							<input type="text" name="last_name" class="form-control" placeholder="Enter last name">
+						</div>
+						
+						<div class="form-group">
+							<label>Email address</label>
+							<input type="email" name="email" class="form-control" placeholder="Enter email" required aria-required=”true”>
+						</div>
+						
+						<div class="form-group col-md-6">
+							<label>Birthday</label><br>
+							
+							<select id="form_dob_day" name="dob_day">
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+								<option value="10">10</option>
+								<option value="11">11</option>
+								<option value="12">12</option>
+								<option value="13">13</option>
+								<option value="14">14</option>
+								<option value="15">15</option>
+								<option value="16">16</option>
+								<option value="17">17</option>
+								<option value="18">18</option>
+								<option value="19">19</option>
+								<option value="20">20</option>
+								<option value="21">21</option>
+								<option value="22">22</option>
+								<option value="23">23</option>
+								<option value="24">24</option>
+								<option value="25">25</option>
+								<option value="26">26</option>
+								<option value="27">27</option>
+								<option value="28">28</option>
+								<option value="29">29</option>
+								<option value="30">30</option>
+								<option value="31">31</option>
+							</select>
+							<select id="form_dob_month" name="dob_month">
+								<option value="1">January</option>
+								<option value="2">Febuary</option>
+								<option value="3">March</option>
+								<option value="4">April</option>
+								<option value="5">May</option>
+								<option value="6">June</option>
+								<option value="7">July</option>
+								<option value="8">August</option>
+								<option value="9">September</option>
+								<option value="10">October</option>
+								<option value="11">November</option>
+								<option value="12">December</option>
+							</select>
+							<select id="form_dob_year" name="dob_year">
+								<option value="2011">2011</option>
+								<option value="2010">2010</option>
+								<option value="2009">2009</option>
+								<option value="2008">2008</option>
+								<option value="2007">2007</option>
+								<option value="2006">2006</option>
+								<option value="2005">2005</option>
+								<option value="2004">2004</option>
+								<option value="2003">2003</option>
+								<option value="2002">2002</option>
+								<option value="2001">2001</option>
+								<option value="2000">2000</option>
+								<option value="1999">1999</option>
+								<option value="1998">1998</option>
+								<option value="1997">1997</option>
+								<option value="1996">1996</option>
+								<option value="1995">1995</option>
+								<option value="1994">1994</option>
+								<option value="1993">1993</option>
+								<option value="1992">1992</option>
+								<option value="1991">1991</option>
+								<option value="1990">1990</option>
+								<option value="1989">1989</option>
+								<option value="1988">1988</option>
+								<option value="1987">1987</option>
+								<option value="1986">1986</option>
+								<option value="1985">1985</option>
+								<option value="1984">1984</option>
+								<option value="1983">1983</option>
+								<option value="1982">1982</option>
+								<option value="1981">1981</option>
+								<option value="1980">1980</option>
+								<option value="1979">1979</option>
+								<option value="1978">1978</option>
+								<option value="1977">1977</option>
+								<option value="1976">1976</option>
+								<option value="1975">1975</option>
+								<option value="1974">1974</option>
+								<option value="1973">1973</option>
+								<option value="1972">1972</option>
+								<option value="1971">1971</option>
+								<option value="1970">1970</option>
+								<option value="1969">1969</option>
+								<option value="1968">1968</option>
+								<option value="1967">1967</option>
+								<option value="1966">1966</option>
+								<option value="1965">1965</option>
+								<option value="1964">1964</option>
+								<option value="1963">1963</option>
+								<option value="1962">1962</option>
+								<option value="1961">1961</option>
+								<option value="1960">1960</option>
+								<option value="1959">1959</option>
+							</select>  
+							
+						</div>
+						
+						<div class="form-group col-md-6">
+							<label>Gender</label><br>
+							<input type="radio" name="gender" value="female" required>Female</i>
+							<input type="radio" name="gender" value="male" required>Male</i>
+						</div>
+						
+						<div class="form-group">
+							<label>Devices</label><br>
+							<div class="checkbox-inline">
+							  <p>
+								<input type="checkbox" name="androidphone" value="1" >
+								Android Phone
+							  </p>
+							</div>
+							<div class="checkbox-inline">
+							  <p>
+								<input type="checkbox"name="iosphone" value="1" >
+								iOS Phone
+							  </p>
+							</div>
+							<div class="checkbox-inline">
+							  <p>
+								<input type="checkbox" name="androidtablet" value="1">
+								Android Tablet
+							  </p>
+							</div>
+							<div class="checkbox-inline">
+							  <p>
+								<input type="checkbox" name="iostablet" value="1">
+								iOS Tablet
+							  </p>
+							</div>							
+						</div>
+						
+						<div class="form-group">
+							<label>Time spent playing games daily (hours)</label>
+							<input type="number" class="form-control" placeholder="Enter number" name="timespentdaily">
+						</div>
+						
+						<div class="form-group">
+						  <div class="checkbox">
+							  <p>
+								<input type="checkbox" checked name ="newsletter" value = "1">
+								Keep me in the loop with WIGU's news!
+							  </p>
+						  </div>
+						</div>  
+						
+					  <p><input id = "submit-mainpage" type="submit" class="jumpingicon btn btn-lg" role="button" value=""></button></p>
+						
+
+					
+					</div>
+				</form>
+				
+				<div  id="bottomcanvas" class=""></div>
+			</div>
+			
+			
+			
+
+			
+			
+			
+			
+			<!--Wigu Highlights-->
+			<div class="wigu_highlights row">
+				<!--Who are we?-->
+				<div class="mobile-padding col-sm-4">
+					<div class="text-center col-sm-12 double-border">
+						<img src="css/images/ticket.png"/>
+					</div>
+					<h2 class="col-sm-12 ribbon-orange text-center oleo double-border"><a class ="title-click" href="#about">Who Are We?</a></h2>
+					<div class="col-sm-12"><a href="#about"><img class="img-responsive" src="css/images/homethumb2.jpg"></a></div>
+					<div class="col-sm-12"><br><p>Wondering who is behind the Wigu team and what we're all about?</p><br><p>Click <a href="#about">here</a> to find out more!</p></div>
+				</div>
+				<!--Our Games-->
+				<div class="mobile-padding col-sm-4">
+					<div class="text-center col-sm-12 double-border">
+						<img src="css/images/ticket.png"/>
+					</div>
+					<h2 class="col-sm-12 ribbon-orange text-center oleo double-border"><a class ="title-click" href="#lifeseries">Our Games</a></h2>
+					<div class="col-sm-12"><a href="#lifeseries"><img class="img-responsive" src="css/images/HomeThumb1.png"></a></div>
+					<div class="col-sm-12"><br><p>Introducing our first title, Doctor Life!</p><br><p>If you ever wanted to be a doctor, here's your chance! Diagnose your wacky patients, treat them and don't forget to build up your hospital so more patients will visit!</p><br><p><a href="#lifeseries">Check it out</a> now!</p></div>
+				</div>
+				<!--Doctor Life-->
+				<div class="mobile-padding col-sm-4">
+					<div class="text-center col-sm-12 double-border">
+						<img src="css/images/ticket.png"/>
+					</div>
+					<h2 class="col-sm-12 ribbon-orange text-center oleo double-border"><a class ="title-click" href="doctorlife.html">Doctor Life!</a></h2>
+					<div class="col-sm-12"><a href="doctorlife.html"><img class="img-responsive" src="css/images/HomeThumb3.jpg"></a></div>
+					<div class="col-sm-12"><br><p>Doctor Life on Google Play!</p><br><p>Check out our <a href="/press">Press Kit</a> for more information!</p></div>
+				</div>
+			</div>
+
+
+		
+		
+	<!-- Footer -->
+		<hr>
+		
+		<!-- Large Screen Footer -->
+		<div class="pc-only row text-center footer">	
+			<div class="col-sm-3">&copy; 2013 - 2014 Wigu Games. All rights reserved</div>
+			<div class="col-sm-6">
+				<ul class="footer-nav nav nav-justified">
+					<li class="active"><a href="index.html">Home</a></li>
+					<li>|</li>
+					<li><a href="#about">About Us</a></li>
+					<li>|</li>
+					<li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#lifeseries">Our Games <b class="caret"></b></a>
+							<ul class="dropdown-menu">
+							<!-- 	<li class="dropdown-header">Life Series</li> -->
+								<li><a href="doctorlife.html">Doctor Life <span class="label label-primary istok">Coming Soon!</span></a></li>
+								<li><a>Chef Life  <span class="label label-primary istok">Coming Soon!</span></a></li>
+<!-- 								<li class="divider"></li>
+								<li class="dropdown-header">Casual</li>
+								<li><a href="#">Battle Forge</a></li> -->
+							</ul>
+					</li>
+					<li>|</li>
+					<li><a href="#community">Community</a></li>
+					<li>|</li>
+					<li><a href="#contact">Contact</a></li>				
+				</ul>
+			</div>
+			<div class="wigu-tag col-sm-2 col-sm-offset-1">Made by <img src="css/images/logo_wigu.png"/></div>
+		</div>
+			
+		<div class = "pc-only footer text-center">
+			<p>Access our <a href = "http://www.privacychoice.org/policy/mobile?policy=1eb17e17957390e381600fbe6d939a60" target="_blank">Privacy Policy.</a></p><br>
+		</div>
+		
+		</div>
+
+		
+	</section>
+	
+<!--========================================
+About Us
+=========================================-->
+	<section id="about" class="section">
+		<h1>About Us</h1>
+		<img class="img-responsive" id="title"  src="css/images/title_02.png"/>
+		
+		
+		<div class="bg-line container ">
+			<div class="row facebook-buttons">
+				<div class="col-sm-9">
+					<div class="fb-like" data-href="https://www.facebook.com/wigugames" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+				</div>
+				<div class="col-sm-3">
+					<div class="fb-follow" data-href="http://www.facebook.com/wigugames" data-height="20" data-width="350" data-colorscheme="light" data-layout="standard" data-show-faces="false"></div>
+					
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-md-2">
+					<img src = "css/images/WIGU_logo.png" />
+				</div>
+				<div class="col-md-10">
+					<blockquote>
+						<p class="text-center oleo vision">Inspiring our players to explore the different professions in the world.</p>
+						<small class="text-center">Wigu's Vision </small>
+					</blockquote>
+				
+					<blockquote>
+						<p class="text-center oleo vision">Interweaving profession specific knowledge with interactive entertainment.</p>
+						<small class="text-center">Wigu's Design Philosophy</small>
+					</blockquote>
+				</div>		
+			</div>
+			
+			<div class="row">
+				<blockquote>
+					<p class="text-left ">WIGU is an acronym which stands for When I Grow Up. We're all about exploring what you want to be when you grow up, or what you wanted to be when you were growing up. It is this desire that has inspired our vision and design philosophy.</p>
+				</blockquote>
+			</div>
+			
+<!-- 			<div class="row" id="aboutus-canvas">
+				<div class="col-md-1" >
+					
+					<img id="richard" src="css/images/unknown.png" data-toggle="popover tab" data-content="Richard"/>
+
+
+
+				</div>
+				
+			
+			</div> -->
+			
+			<!-- Nav tabs -->
+			<div class="row" role="tablist" id ="aboutus-canvas">
+			  <div class="active col-sm-1">
+				<a href="#richard" role="tab" data-toggle="tab"><img id="richardimg" src="css/images/richard.png" data-toggle="popover tab" data-content="Richard"/></a>
+				<div id ="aboutus-founders"></div>
+			  </div>
+			  <div class=" col-sm-1">
+				<a href="#joyce" role="tab" data-toggle="tab"><img id="joyceimg" src="css/images/joyce.png" data-toggle="popover tab" data-content="Joyce"/></a>
+				<div id ="aboutus-founders"></div>
+			  </div>
+			  <div class=" col-sm-1">
+				<a href="#glenn" role="tab" data-toggle="tab"><img id="glennimg" src="css/images/glenn.png" data-toggle="popover tab" data-content="Glenn"/></a>
+				<div id ="aboutus-solvers"></div>
+			  </div>
+			  <div class=" col-sm-1">
+				<a href="#hongleong" role="tab" data-toggle="tab"><img id="hongleongimg" src="css/images/hongleong.png" data-toggle="popover tab" data-content="Hong Leong"/></a>
+				<div id ="aboutus-solvers"></div>
+ 			  </div>
+			  <div class=" col-sm-1">
+				<a href="#" role="tab" data-toggle="tab"><img id="" src="css/images/unknown.png" data-toggle="popover tab" data-content="You!"/></a>
+				<div id ="aboutus-solvers"></div>
+ 			  </div>
+			  <div class=" col-sm-1">
+				<a href="#" role="tab" data-toggle="tab"><img id="" src="css/images/unknown.png" data-toggle="popover tab" data-content="You!"/></a>
+				<div id ="aboutus-solvers"></div>
+ 			  </div>
+			  <div class=" col-sm-1">
+				<a href="#" role="tab" data-toggle="tab"><img id="" src="css/images/jun.png" data-toggle="popover tab" data-content="Jun"/></a>
+				<div id ="aboutus-imagineers"></div>
+ 			  </div>
+			  <div class=" col-sm-1">
+				<a href="#" role="tab" data-toggle="tab"><img id="" src="css/images/rex.png" data-toggle="popover tab" data-content="Rex"/></a>
+				<div id ="aboutus-imagineers"></div>
+ 			  </div>
+			  <div class=" col-sm-1">
+				<a href="#" role="tab" data-toggle="tab"><img id="" src="css/images/unknown.png" data-toggle="popover tab" data-content="You!"/></a>
+				<div id ="aboutus-imagineers"></div>
+ 			  </div>
+			  <div class=" col-sm-1">
+				<a href="#" role="tab" data-toggle="tab"><img id="" src="css/images/unknown.png" data-toggle="popover tab" data-content="You!"/></a>
+				<div id ="aboutus-crafters"></div>
+ 			  </div>
+			</div>
+
+			<!-- Tab panes -->
+			<div class="tab-content">
+			  <div class="tab-pane active" id="richard">Rich is.. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+			  <div class="tab-pane" id="joyce">Joyce is ... Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+			  <div class="tab-pane" id="glenn">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+			  <div class="tab-pane" id="hongleong">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+			</div>
+			
+		  
+			<!-- Footer -->
+			<hr>
+			
+			<!-- Large Screen Footer -->
+			<div class="pc-only row text-center footer">	
+				<div class="col-sm-3">&copy; 2013 - 2014 Wigu Games. All rights reserved</div>
+				<div class="col-sm-6">
+					<ul class="footer-nav nav nav-justified">
+						<li class="active"><a href="index.html">Home</a></li>
+						<li>|</li>
+						<li><a href="#about">About Us</a></li>
+						<li>|</li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#lifeseries">Our Games <b class="caret"></b></a>
+							<ul class="dropdown-menu">
+							<!-- 	<li class="dropdown-header">Life Series</li> -->
+								<li><a href="doctorlife.html">Doctor Life <span class="label label-primary istok">Coming Soon!</span></a></li>
+								<li><a>Chef Life  <span class="label label-primary istok">Coming Soon!</span></a></li>
+<!-- 								<li class="divider"></li>
+								<li class="dropdown-header">Casual</li>
+								<li><a href="#">Battle Forge</a></li> -->
+							</ul>
+						</li>
+						<li>|</li>
+						<li><a href="#community">Community</a></li>
+						<li>|</li>
+						<li><a href="#contact">Contact</a></li>				
+					</ul>
+				</div>
+				<div class="wigu-tag col-sm-2 col-sm-offset-1">Made by <img src="css/images/logo_wigu.png"/></div>
+			</div>
+			
+			<div class = "pc-only footer text-center">
+				<p>Access our <a href = "http://www.privacychoice.org/policy/mobile?policy=1eb17e17957390e381600fbe6d939a60" target="_blank">Privacy Policy.</a></p><br>
+			</div>
+		  
+		  
+		</div>
+
+	</section>
+
+	
+<!--========================================
+Our Games
+=========================================-->
+	<section id="lifeseries" class="section">
+		<h1>Our Games</h1>
+		<img class="img-responsive" id="title"  src="css/images/title_03.png"/>
+		
+		<div class="container bg-line">
+		
+			<div class="row facebook-buttons">
+				<div class="col-sm-9">
+					<div class="fb-like" data-href="https://www.facebook.com/wigugames" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+				</div>
+				<div class="col-sm-3">
+					<div class="fb-follow" data-href="http://www.facebook.com/wigugames" data-height="20" data-width="350" data-colorscheme="light" data-layout="standard" data-show-faces="false"></div>
+					
+				</div>
+			</div>
+			
+			<div id="games-navbar" class="row">
+				<div class="col-xs-3 col-md-1"><a href="#doctorlife"><img class="img-responsive" src="css/images/icon_doctorlife.png"/></a></div>
+				<div class="col-xs-3 col-md-1"><a href="#doctorlifeforkids"><img class="img-responsive" src="css/images/icon_doctorlifekids.png"/></a></div>
+				<div class="col-xs-3 col-md-1"><a href="#caninelife"><img class="img-responsive" src="css/images/icon_caninelife.png"/></a></div>
+				<div class="col-xs-3 col-md-1"><a href="#cheflife"><img class="img-responsive" src="css/images/doctorlife_appicon.png"/></a></div>
+
+				
+			
+			</div>
+			
+			
+			
+			
+			
+			<!--DOCTOR LIFE-->
+			<div id="doctorlife" class="box">
+				<div class="row">
+					<div class="screenshots col-sm-2"><a href="doctorlife.html"><img class="img-responsive" src="css/images/doctorlife_appicon.png"/></a>
+					</div>
+					
+					<div class="title col-sm-9">
+						<div class="row">
+							<div class="text-center col-xs-12 double-border">
+								<img src="css/images/plug.png"/>
+							</div>
+							<div class="text-center ribbon-orange col-xs-12 double-border">
+								<a href="doctorlife.html"><h2 class="oleo">Doctor Life: Be a Doctor!</h2></a>
+							</div>
+						</div>
+						<div class="row">
+							<p class="product-description">Don't let the cuteness fool you! Doctor Life is a challenging casual simulation game where you take on the role of a Doctor! Set in a charming little city with wacky patients, you must grow your humble clinic into a multistory hospital! You will meet patients along your journey and help them by diagnosing and treating their real life diseases with actual treatments.</p><br>
+
+							<p class="product-description">Beware though! There is an evil tycoon out to buy the land your hospital is on. Earn awards for hospital excellence to save your hospital from his grubby hands.</p><br>
+							<p class="product-description">Articles</p>
+							<p class="product-description">"Medical Mayhem at its Best" (4/5 stars)<a href = "http://bit.ly/1iuImwr" target = "_blank">  - Touch Arcade</a></p>
+	<!-- 						<p class="product-description"><a href = "https://play.google.com/store/apps/details?id=com.wigugames.doctorlife" target = "_blank">Take me to the Google Play Store!</a></p> -->
+						</div>
+						<br>
+						<div class="row product-description">
+							<div class="col-sm-3 text-center ">
+								<a href="http://bit.ly/1iuImwr" target = "_blank"><img class="icon img-responsive" src="css/images/btn_appstore.png"/></a>
+							</div>
+							<div class="col-sm-3 text-center">
+								<a href="https://play.google.com/store/apps/details?id=com.wigugames.doctorlife" target = "_blank"><img class="icon img-responsive" src="css/images/btn_googleplay.png"/></a>
+							</div>
+							<div class="col-sm-3 text-center">
+								<a href="http://www.bigfishgames.com/download-games/26379/doctor-life-be-a-doctor/index.html" target = "_blank"><img class="icon img-responsive" src="css/images/btn_bigfish.png"/></a>
+							</div>
+							<div class="col-sm-3 text-center">
+								<a href="http://www.gamehouse.com/download-games/doctor-life" target = "_blank"><img class="icon img-responsive" src="css/images/btn_gamehouse.png"/></a>
+							</div>
+						</div>
+						<br>
+						<div class="row">
+							<p class="product-description">Also available on:</p>
+						</div>
+						<br>
+						<div class="row">
+							<div class="col-sm-1"> </div>
+						</div>
+					</div>
+					
+					<div class="col-sm-12 platform">
+						<div class = "col-sm-12 text-center">
+							<a href = "/press"><img class = "presskit" src = "css/images/wigudoctorlife_presskit.png"/></a>
+						</div>
+						
+					</div>
+				</div>
+				
+				
+				<div class="row screenshots-dashed text-center oleo">
+					<a data-toggle="collapse" data-target="#screenshots_1">Screenshots</a>
+				</div> 
+				
+				<div id="screenshots_1" class="collapse">
+					<div class="row screenshots">
+						<div class="col-sm-4">
+							<a class="fancybox" rel="group" href="css/images/product_printscreen3.jpg"><img src="css/images/product_printscreen3.jpg"/></a>
+						</div>
+						<div class="col-sm-4">
+							<a class="fancybox" rel="group" href="css/images/product_printscreen1.jpg"><img src="css/images/product_printscreen1.jpg"/></a>
+						</div>
+						<div class="col-sm-4">
+							<a class="fancybox" rel="group" href="css/images/product_printscreen2.jpg"><img src="css/images/product_printscreen2.jpg"/></a>
+						</div>					
+					</div>
+					
+					<div class="row screenshots">
+						<div class="col-sm-4">
+							<a class="fancybox" rel="group" href="css/images/product_printscreen4.jpg"><img src="css/images/product_printscreen4.jpg"/></a>
+						</div>
+						<div class="col-sm-4">
+							<a class="fancybox" rel="group" href="css/images/product_printscreen5.jpg"><img src="css/images/product_printscreen5.jpg"/></a>
+						</div>					
+						<div class="col-sm-4">
+							<a class="fancybox" rel="group" href="css/images/product_printscreen6.jpg"><img src="css/images/product_printscreen6.jpg"/></a>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			
+			<!--DOCTOR LIFE FOR KIDS-->
+			
+			<div id="doctorlifeforkids" class="box">
+				<div class="row">
+					<div class="screenshots col-sm-4"><a href="doctorlife.html"><img class="img-responsive" src="css/images/doctorlifekids_appicon.png"/></a>
+					</div>
+					
+					<div class="title col-sm-6">
+						<div class="row">
+							<div class="text-center col-xs-12 double-border">
+								<img src="css/images/plug.png"/>
+							</div>
+							<div class="text-center ribbon-orange col-xs-12 double-border">
+								<a href="doctorlife.html"><h2 class="oleo">Doctor Life for Kids!</h2></a>
+							</div>
+						</div>
+						<div class="row">
+							<p class="product-description">Doctor Life for Kids is a challenging educational simulation and time management game where you learn what it takes to be a Doctor. Have fun while learning the symptoms of diseases and how to treat them!</p><br>
+
+							<p class="product-description">Set in a charming little city with wacky patients, you must grow your humble clinic into a multistory hospital! You will meet patients along your journey and help them by diagnosing and treating their diseases with actual treatments. Beware though! There is an evil tycoon out to buy the land your hospital is on. Earn awards for hospital excellence to save your hospital from his grubby hands.</p><br>
+							<p class="product-description"><a href = "https://itunes.apple.com/app/id830350373" target = "_blank">Take me to the AppStore!</a></p>
+						</div>
+					</div>
+					
+					<div class="col-sm-2 platform">
+						<div class = "col-sm-12 text-center">
+							<a href = "/press"><img class = "presskit img-responsive" src = "css/images/wigudoctorlife_presskit.png"/></a>
+						</div>
+						<div class="col-sm-12 text-center">
+
+							<a href="https://itunes.apple.com/app/id830350373" target = "_blank"><img class="icon img-responsive" src="css/images/button_apple_on.png"/></a>
+							<img class="icon img-responsive" src="css/images/button_googleplay_off.png"/>
+							<img class="icon img-responsive" src="css/images/button_window_off.png"/>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row screenshots-dashed text-center oleo">
+					<p>Screenshots</p>
+				</div> 
+				
+				<div class="row screenshots">
+					<div class="col-sm-4">
+						<a class="fancybox" rel="group" href="css/images/product_printscreen3.jpg"><img src="css/images/product_printscreen3.jpg"/></a>
+					</div>
+					<div class="col-sm-4">
+						<a class="fancybox" rel="group" href="css/images/doctorlife_07r.jpg"><img src="css/images/doctorlife_07r.jpg"/></a>
+					</div>
+					<div class="col-sm-4">
+						<a class="fancybox" rel="group" href="css/images/doctorlife_08r.jpg"><img src="css/images/doctorlife_08r.jpg"/></a>
+					</div>					
+				</div>
+				
+				<div class="row screenshots">
+					<div class="col-sm-4">
+						<a class="fancybox" rel="group" href="css/images/doctorlife_09r.jpg"><img src="css/images/doctorlife_09r.jpg"/></a>
+					</div>
+					<div class="col-sm-4">
+						<a class="fancybox" rel="group" href="css/images/doctorlife_10r.jpg"><img src="css/images/doctorlife_10r.jpg"/></a>
+					</div>					
+					<div class="col-sm-4">
+						<a class="fancybox" rel="group" href="css/images/product_printscreen6.jpg"><img src="css/images/product_printscreen6.jpg"/></a>
+					</div>
+				</div>
+				
+			</div>
+			
+			<!--Canine Life-->
+			
+			<div id="caninelife" class="box">
+				<div class="row">
+					<div class="screenshots col-sm-4"><img class="img-responsive" src="css/images/product_caninelife_color.jpg">
+					</div>
+					
+					<div class="title col-sm-6">
+						<div class="row">
+							<div class="text-center col-xs-12 double-border">
+								<img src="css/images/plug.png"/>
+							</div>
+							<div class="text-center ribbon-orange col-xs-12 double-border">
+								<h2 class="oleo">Canine Life: Woof woof!</h2>
+							</div>
+						</div>
+						<div class="row">
+							<p class="product-description">A work in progress. Stay tuned!</p>
+						</div>
+					</div>
+					
+					<div class="col-sm-2 platform">
+						<div class="col-sm-12 text-center"> 
+							<img class="icon img-responsive" src="css/images/button_apple_off.png"/>
+							<img class="icon img-responsive" src="css/images/button_googleplay_off.png"/>
+							<img class="icon img-responsive" src="css/images/button_window_off.png"/>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			
+			<!--Chef Life-->
+			
+			<div id="cheflife"class="box">
+				<div class="row">
+					<div class="screenshots col-sm-4"><img class="img-responsive" src="css/images/product_Cheflife_color.jpg">
+					</div>
+					
+					<div class="title col-sm-6">
+						<div class="row">
+							<div class="text-center col-xs-12 double-border">
+								<img src="css/images/plug.png"/>
+							</div>
+							<div class="text-center ribbon-orange col-xs-12 double-border">
+								<h2 class="oleo">Chef Life: Delicious!</h2>
+							</div>
+						</div>
+						<div class="row">
+							<p class="product-description">A work in progress. Stay tuned!</p>
+						</div>
+					</div>
+					
+					<div class="col-sm-2 platform">
+						<div class="col-sm-12 text-center"> 
+							<img class="icon img-responsive" src="css/images/button_apple_off.png"/>
+							<img class="icon img-responsive" src="css/images/button_googleplay_off.png"/>
+							<img class="icon img-responsive" src="css/images/button_window_off.png"/>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		  
+			<!-- Footer -->
+			<hr>
+			
+			<!-- Large Screen Footer -->
+			<div class="pc-only row text-center footer">	
+				<div class="col-sm-3">&copy; 2013 - 2014 Wigu Games. All rights reserved</div>
+				<div class="col-sm-6">
+					<ul class="footer-nav nav nav-justified">
+						<li class="active"><a href="index.html">Home</a></li>
+						<li>|</li>
+						<li><a href="#about">About Us</a></li>
+						<li>|</li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#lifeseries">Our Games <b class="caret"></b></a>
+							<ul class="dropdown-menu">
+							<!-- 	<li class="dropdown-header">Life Series</li> -->
+								<li><a href="doctorlife.html">Doctor Life <span class="label label-primary istok">Coming Soon!</span></a></li>
+								<li><a>Chef Life  <span class="label label-primary istok">Coming Soon!</span></a></li>
+<!-- 								<li class="divider"></li>
+								<li class="dropdown-header">Casual</li>
+								<li><a href="#">Battle Forge</a></li> -->
+							</ul>
+						</li>
+						<li>|</li>
+						<li><a href="#community">Community</a></li>
+						<li>|</li>
+						<li><a href="#contact">Contact</a></li>				
+					</ul>
+				</div>
+				<div class="wigu-tag col-sm-2 col-sm-offset-1">Made by <img src="css/images/logo_wigu.png"/></div>
+			</div>
+			
+			<div class = "pc-only footer text-center">
+				<p>Access our <a href = "http://www.privacychoice.org/policy/mobile?policy=1eb17e17957390e381600fbe6d939a60" target="_blank">Privacy Policy.</a></p><br>
+			</div>
+		  
+		</div>
+
+	</section>
+	
+<!--========================================
+Community
+=========================================-->
+	<section id="community" class="section">
+		<h1>Community</h1>
+		<img class="img-responsive" id="title" src="css/images/title_04.png"/>
+		
+		<div class="container bg-line">
+		
+			<div class="row facebook-buttons">
+				<div class="col-sm-9">
+					<div class="fb-like" data-href="https://www.facebook.com/wigugames" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+				</div>
+				<div class="col-sm-3">
+					<div class="fb-follow" data-href="http://www.facebook.com/wigugames" data-height="20" data-width="350" data-colorscheme="light" data-layout="standard" data-show-faces="false"></div>
+					
+				</div>
+			</div>
+			
+			
+			<div>
+				<a data-toggle="collapse" data-target="#articles"><h2>Articles, mentions, etc</h2></a>
+				<ul id ="articles" class="collapse">
+					<li>HAVE you ever dreamed of being a doctor? We did but as we didn't make the grade, we have been growing up on PC simulations such as Theme Hospital...</li>
+					<p>"Doctor Life: Day of the doctor", Chong Jinn Xiung, <a href="http://www.thestar.com.my/Tech/Games/2014/03/10/Day-of-the-doctor/" target="_blank">The Star Newspaper</a></p><br>
+					<li>HAVE you ever dreamed of being a doctor? We did but as we didn't make the grade, we have been growing up on PC simulations such as Theme Hospital...</li>
+					<p>"Doctor Life: Day of the doctor", Chong Jinn Xiung, <a href="http://www.thestar.com.my/Tech/Games/2014/03/10/Day-of-the-doctor/" target="_blank">The Star Newspaper</a></p><br>
+					<li>HAVE you ever dreamed of being a doctor? We did but as we didn't make the grade, we have been growing up on PC simulations such as Theme Hospital...</li>
+					<p>"Doctor Life: Day of the doctor", Chong Jinn Xiung, <a href="http://www.thestar.com.my/Tech/Games/2014/03/10/Day-of-the-doctor/" target="_blank">The Star Newspaper</a></p><br>
+					<li>HAVE you ever dreamed of being a doctor? We did but as we didn't make the grade, we have been growing up on PC simulations such as Theme Hospital...</li>
+					<p>"Doctor Life: Day of the doctor", Chong Jinn Xiung, <a href="http://www.thestar.com.my/Tech/Games/2014/03/10/Day-of-the-doctor/" target="_blank">The Star Newspaper</a></p><br>
+					<li>HAVE you ever dreamed of being a doctor? We did but as we didn't make the grade, we have been growing up on PC simulations such as Theme Hospital...</li>
+					<p>"Doctor Life: Day of the doctor", Chong Jinn Xiung, <a href="http://www.thestar.com.my/Tech/Games/2014/03/10/Day-of-the-doctor/" target="_blank">The Star Newspaper</a></p><br>
+				</ul>
+			
+			</div>
+			
+
+			<!-- Tab panes -->
+			<div class="">
+				<div class="" id="">
+					<h2>Facebook posts</h2>
+		<!--=============================
+		Facebook embedded posts
+		==================================-->
+		<!--=============================
+		Note: 
+		1. Remove all clearfixes - <div class="clearfix visible-sm"></div>
+		2. Move and edit content
+			<div class = "col-lg-4 col-sm-6">
+			</div>
+		3. Add clear fixes:
+			- every two (2) posts -> <div class="clearfix visible-sm visible-md"></div>
+			- every three (3) posts -> <div class="clearfix visible-lg"></div>
+		4. Data width = 350
+
+		==================================-->
+					<div class="row">
+						<div class = "col-lg-4 col-sm-6">
+							<div class="fb-post" data-href="https://www.facebook.com/WiguGames/posts/262033774000555" data-width="350"><div class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/WiguGames/posts/262033774000555">Post</a> by <a href="https://www.facebook.com/WiguGames">WIGU Games</a>.</div></div>
+						</div>
+					
+						<div class = "col-lg-4 col-sm-6">
+							<div class="fb-post" data-href="https://www.facebook.com/WiguGames/photos/a.147949042075696.1073741827.129109930626274/257490647788201/?type=1" data-width="350"><div class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/WiguGames/photos/a.147949042075696.1073741827.129109930626274/257490647788201/?type=1">Post</a> by <a href="https://www.facebook.com/WiguGames">WIGU Games</a>.</div></div>
+						</div>
+					
+					<div class="clearfix visible-sm visible-md"></div>
+					
+						<div class = "col-lg-4 col-sm-6">
+							<div class="fb-post" data-href="https://www.facebook.com/WiguGames/photos/a.147949042075696.1073741827.129109930626274/254282351442364/?type=1" data-width="350"><div class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/WiguGames/photos/a.147949042075696.1073741827.129109930626274/254282351442364/?type=1">Post</a> by <a href="https://www.facebook.com/WiguGames">WIGU Games</a>.</div></div>
+						</div>
+						
+					<div class="clearfix visible-lg"></div>
+					
+						<div class = "col-lg-4 col-sm-6">
+							<div class="fb-post" data-href="https://www.facebook.com/WiguGames/photos/a.134051056798828.1073741826.129109930626274/249570601913539/?type=1" data-width="350"><div class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/WiguGames/photos/a.134051056798828.1073741826.129109930626274/249570601913539/?type=1">Post</a> by <a href="https://www.facebook.com/WiguGames">WIGU Games</a>.</div></div>
+						</div>
+					
+					<div class="clearfix visible-sm visible-md"></div>
+					
+						<div class = "col-lg-4 col-sm-6">
+							<div class="fb-post" data-href="https://www.facebook.com/WiguGames/photos/a.147949042075696.1073741827.129109930626274/248487678688498/?type=1" data-width="350"><div class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/WiguGames/photos/a.147949042075696.1073741827.129109930626274/248487678688498/?type=1">Post</a> by <a href="https://www.facebook.com/WiguGames">WIGU Games</a>.</div></div>
+						</div>
+					
+						<div class = "col-lg-4 col-sm-6">
+							<div class="fb-post" data-href="https://www.facebook.com/WiguGames/photos/a.147949042075696.1073741827.129109930626274/246751305528802/?type=1" data-width="350"><div class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/WiguGames/photos/a.147949042075696.1073741827.129109930626274/246751305528802/?type=1">Post</a> by <a href="https://www.facebook.com/WiguGames">WIGU Games</a>.</div></div>
+						</div>
+					
+					<div class="clearfix visible-sm visible-md"></div>
+					<div class="clearfix visible-lg"></div>
+					
+						<div class = "col-lg-4 col-sm-6">
+							<div class="fb-post" data-href="https://www.facebook.com/WiguGames/photos/a.134051056798828.1073741826.129109930626274/243758785828054/?type=1" data-width="350"><div class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/WiguGames/photos/a.134051056798828.1073741826.129109930626274/243758785828054/?type=1">Post</a> by <a href="https://www.facebook.com/WiguGames">WIGU Games</a>.</div></div>
+						</div>
+						
+						<div class = "col-lg-4 col-sm-6">
+							<div class="fb-post" data-href="https://www.facebook.com/WiguGames/photos/a.147949042075696.1073741827.129109930626274/242844475919485/?type=1" data-width="350"><div class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/WiguGames/photos/a.147949042075696.1073741827.129109930626274/242844475919485/?type=1">Post</a> by <a href="https://www.facebook.com/WiguGames">WIGU Games</a>.</div></div>
+						</div>
+						
+					<div class="clearfix visible-sm visible-md"></div>
+						
+						<div class = "col-lg-4 col-sm-6">
+							<div class="fb-post" data-href="https://www.facebook.com/WiguGames/photos/a.147949042075696.1073741827.129109930626274/241760959361170/?type=1" data-width="350"><div class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/WiguGames/photos/a.147949042075696.1073741827.129109930626274/241760959361170/?type=1">Post</a> by <a href="https://www.facebook.com/WiguGames">WIGU Games</a>.</div></div>
+						</div>			
+							
+					<div class="clearfix visible-lg"></div>
+						
+					</div>
+
+
+				</div>
+				
+			</div>
+		
+		
+		
+
+
+				
+			
+
+			
+
+			
+			<!-- Footer -->
+			<hr>
+			
+			<!-- Large Screen Footer -->
+			<div class="pc-only row text-center footer">	
+				<div class="col-sm-3">&copy; 2013 - 2014 Wigu Games. All rights reserved</div>
+				<div class="col-sm-6">
+					<ul class="footer-nav nav nav-justified">
+						<li class="active"><a href="index.html">Home</a></li>
+						<li>|</li>
+						<li><a href="#about">About Us</a></li>
+						<li>|</li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#lifeseries">Our Games <b class="caret"></b></a>
+							<ul class="dropdown-menu">
+							<!-- 	<li class="dropdown-header">Life Series</li> -->
+								<li><a href="doctorlife.html">Doctor Life <span class="label label-primary istok">Coming Soon!</span></a></li>
+								<li><a>Chef Life  <span class="label label-primary istok">Coming Soon!</span></a></li>
+<!-- 								<li class="divider"></li>
+								<li class="dropdown-header">Casual</li>
+								<li><a href="#">Battle Forge</a></li> -->
+							</ul>
+						</li>
+						<li>|</li>
+						<li><a href="#community">Community</a></li>
+						<li>|</li>
+						<li><a href="#contact">Contact</a></li>				
+					</ul>
+				</div>
+				<div class="wigu-tag col-sm-2 col-sm-offset-1">Made by <img src="css/images/logo_wigu.png"/></div>
+			</div>
+			
+			<div class = "pc-only footer text-center">
+				<p>Access our <a href = "http://www.privacychoice.org/policy/mobile?policy=1eb17e17957390e381600fbe6d939a60" target="_blank">Privacy Policy.</a></p><br>
+			</div>
+			
+		</div>
+	</section>
+	
+<!--========================================
+Contact
+=========================================-->
+	<section id="contact" class="section">
+		<h1>Contact</h1>
+		<img class="img-responsive" id="title"  src="css/images/title_05.png"/>
+		
+		<div class="container bg-line">
+			
+			<div class="row facebook-buttons">
+				<div class="col-sm-9">
+					<div class="fb-like" data-href="https://www.facebook.com/wigugames" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+				</div>
+				<div class="col-sm-3">
+					<div class="fb-follow" data-href="http://www.facebook.com/wigugames" data-height="20" data-width="350" data-colorscheme="light" data-layout="standard" data-show-faces="false"></div>
+					
+				</div>
+			</div>
+		
+			<div class="contact-wigu row text-center">
+				
+				<div class="mobile-padding mail-to text-center col-sm-4">
+					<h2 class="text-center ribbon-orange col-sm-12 lobster">Support</h2>
+					<div class="col-sm-12"><a href="mailto:support@wigugames.com"><img src="css/images/feedback_icon.png"/></a></div>
+					<div class="col-sm-12"><a href="mailto:support@wigugames.com">support@wigugames.com</a></div>
+				</div>
+
+				<div class="mobile-padding mail-to col-sm-4">
+					<h2 class="text-center ribbon-orange col-sm-12 lobster">Human Resources</h2>
+					<div class="col-sm-12"><a href="mailto:hr@wigugames.com"><img src="css/images/human_resource_icon.png"/></a></div>
+					<div class="col-sm-12"><a href="mailto:hr@wigugames.com">hr@wigugames.com</a></div>
+				</div>
+				
+				<div class="mobile-padding mail-to col-sm-4">
+					<h2 class="text-center ribbon-orange col-sm-12 lobster">Contact</h2>
+					<div class="col-sm-12"><a href="mailto:contact@wigugames.com"><img src="css/images/contact_icon.png"/></a></div>
+					<div class="col-sm-12"><a href="mailto:contact@wigugames.com">contact@wigugames.com</a></div>
+				</div>
+			</div>
+
+			<div class="row text-center">
+				<div class="col-sm-4">
+					<div class="text-center col-sm-12 double-border">
+								<img src="css/images/ticket.png"/>
+					</div>
+					<h2 class="col-sm-12 ribbon-blue text-center lobster double-border">Where are We?</h2>
+				</div>
+			</div>
+			
+			<div class="row pc-only">
+				<div class="col-sm-11 dotted-line">
+				</div>
+			
+				<div class="mail-van col-sm-1">
+					<img src="css/images/mailvan_.png"/>
+				</div>
+			</div>
+
+			<div class="small-container row text-center">
+				<div class="map-div col-sm-8">
+					<div id="map-canvas">
+					</div>
+				</div>
+				
+				<script>
+					function initialize() {
+						var map_canvas = document.getElementById('map-canvas');
+						var map_options = {
+						  center: new google.maps.LatLng(3.0227082,101.5816691),
+						  zoom: 13,
+						  mapTypeId: google.maps.MapTypeId.ROADMAP
+						}
+						var map = new google.maps.Map(map_canvas, map_options);
+
+						var marker = new google.maps.Marker({
+							position: new google.maps.LatLng(3.0227082,101.5816691),
+							map:map,
+							title:"Wigu Studios!",
+							icon:"css/images/icn_mapindicator.png"
+						});
+
+
+					}
+					google.maps.event.addDomListener(window, 'load', initialize);
+
+				</script>
+					
+				<div class="box col-sm-4">
+					<address class="contact-address">
+						<img src="css/images/icon_address.png"/><br>
+						<strong>Wigu Sdn Bhd</strong><br>
+						B-07-05, Level 7, Block B<br>
+						Sky Park, One City @ USJ 25<br>
+						Jalan USJ 25/1<br>
+						47650 Subang Jaya<br>
+						Malaysia
+					</address><br>
+					
+					<address class="address-break">
+						<img src="css/images/icon_telephone.png"/><br>
+						+6 (03) 5115 0279
+					</address>
+		
+				</div>
+				
+			</div>
+			
+			<!-- Footer -->
+			<hr>
+			
+			<!-- Large Screen Footer -->
+			<div class="pc-only row text-center footer">	
+				<div class="col-sm-3">&copy; 2013 - 2014 Wigu Games. All rights reserved</div>
+				<div class="col-sm-6">
+					<ul class="footer-nav nav nav-justified">
+						<li class="active"><a href="index.html">Home</a></li>
+						<li>|</li>
+						<li><a href="#about">About Us</a></li>
+						<li>|</li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#lifeseries">Our Games <b class="caret"></b></a>
+							<ul class="dropdown-menu">
+							<!-- 	<li class="dropdown-header">Life Series</li> -->
+								<li><a href="doctorlife.html">Doctor Life <span class="label label-primary istok">Just released!</span></a></li>
+								<li><a>Chef Life  <span class="label label-default istok">In development</span></a></li>
+<!-- 								<li class="divider"></li>
+								<li class="dropdown-header">Casual</li>
+								<li><a href="#">Battle Forge</a></li> -->
+							</ul>
+						</li>
+						<li>|</li>
+						<li><a href="#community">Community</a></li>
+						<li>|</li>
+						<li><a href="#contact">Contact</a></li>				
+					</ul>
+				</div>
+				<div class="wigu-tag col-sm-2 col-sm-offset-1">Made by <img src="css/images/logo_wigu.png"/></div>
+			</div>
+			
+			<div class = "pc-only footer text-center">
+				<p>Access our <a href = "http://www.privacychoice.org/policy/mobile?policy=1eb17e17957390e381600fbe6d939a60" target="_blank">Privacy Policy.</a></p><br>
+			</div>
+		  
+		</div>
+
+	</section>
+
+
+	
+<!-- Mobile Footer -->
+
+	<div class=" footer mobile-only row text-center">	
+		<div class="col-sm-2">&copy; Wigu Games. All rights reserved</div>
+		<div class="col-sm-2">Made by <img src="css/images/logo_wigu.png"/></div>
+		<div class = "footer text-center">
+			<p>Access our <a href = "http://www.privacychoice.org/policy/mobile?policy=1eb17e17957390e381600fbe6d939a60" target="_blank">Privacy Policy.</a></p><br>
+		</div>
+	</div>
+	
+	
+	
+    <script src="https://code.jquery.com/jquery.js"></script>    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.2/js/bootstrap.min.js"></script>    <!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/mainpagecanvas.js"></script>
+
+	<script src="js/wigu.js"></script>
+	<script src="js/temp.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script async src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+	<script type="text/javascript" async src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.pack.js"></script>
+	<script type="text/javascript" async src="js/jquery.fancybox-buttons.js"></script>
+<!-- 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.3/jquery.mousewheel.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.pack.js"></script> -->
+	
+
+
+	
+	
+  </body>
+</html>

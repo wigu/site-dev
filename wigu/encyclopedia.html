@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+
+<html class="no-js">
+
+<head>
+<title>WIGU Games</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--========================================
+Stylesheets
+=========================================-->
+<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">    <!-- Bootstrap -->
+<link href="css/wigu.css" rel="stylesheet" media="screen">    <!-- Main stylesheet -->
+<link href='http://fonts.googleapis.com/css?family=Istok+Web:400,700,400italic,700italic|Oleo+Script:400,700|Lobster|Galindo' rel='stylesheet' type='text/css'>
+<link href="css/jquery.fancybox.css" rel="stylesheet" media="screen">
+<link href="css/jquery.fancybox-buttons.css" rel="stylesheet" media="screen"> 
+<link href="css/encyclopedia.css" rel="stylesheet" media="screen">
+<script src="js/modernizr.js"></script>
+
+
+
+
+</head>
+
+
+<body class="">
+
+<!-- 		<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=199206370262577";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script> -->
+
+<!-- ==============================================
+Preloader
+=============================================== -->
+<div id='preloader'>
+	<div id='loading-animation'></div>
+</div>
+
+<!--========================================
+Navigation Bar
+=========================================-->
+	<nav class="navbar-wigu navbar navbar-default" role="navigation">
+		<div class="navbar-dashed">
+		  <!-- Brand and toggle get grouped for better mobile display -->
+		  <div class="navbar-header">
+
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-wigu">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#"><img src="css/images/logo_wigu.png"/></a>
+		  </div>
+
+		  <!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="navbar-collapse collapse" id="navigation-wigu">
+			
+				<ul class="nav navbar-nav navbar-right">
+					<li class="nav-divide"><a href="#home">Home</a></li>
+					<li class="nav-divide"><a href="#about">About Us</a></li>
+					<li class="dropdown nav-divide">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#lifeseries">Our Games <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="doctorlife.html">Doctor Life <span class="label label-primary istok">Coming Soon!</span></a></li>
+							<li><a>Chef Life  <span class="label label-primary istok">Coming Soon!</span></a></li>
+						</ul>
+					</li>
+					<li class="nav-divide"><a href="#community">Community</a></li>
+					<li><a href="#contact">Contact</a></li>
+					<li><a class ="facebook-twitter" href="http://www.facebook.com/wigugames" target="_blank"><img src="css/images/button_facebook.png"/></a></li>
+					<li><a class ="facebook-twitter" href="http://www.twitter.com/wigugames" target="_blank"><img src="css/images/button_twitter.png"/></a></li>
+					
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div>
+	</nav>
+
+
+<!--========================================
+Encyclopedia
+=========================================-->
+<section id="encyclopedia" class="section" >
+	<div class="container">
+			<ul id="filters">
+				<li><a href="#" data-filter="*">show all</a></li>
+				<li><a href="#" data-filter=".rooms">Rooms</a></li>
+				<li><a href="#" data-filter=".rooms:not(.diagnosis, .vip)">Administrative Rooms</a></li>
+				<li><a href="#" data-filter=".rooms:not(.diagnosis, .admin)">VIP Rooms</a></li>
+				<li><a href="#" data-filter=".rooms:not(.admin, .vip)">Diagnosis Rooms</a></li>					
+				
+				<li><a href="#" data-filter=".diseases">Diseases</a></li>
+				
+				
+				
+				<li><a href="#" data-filter=".patients, .vips">All Patients</a></li>
+				<li><a href="#" data-filter=".vips">VIPs</a></li>
+				<li><a href="#" data-filter=".patients">Patients</a></li>
+				
+				
+				<li><a href="#" data-filter=":not(.transition)">not transition</a></li>
+
+			</ul>
+						<div id="encyclopedia_content">
+				<!--Registry-->				<div class="element rooms diagnosis panel-group" id="accordion">					  <div class="panel panel-default">					    <div class="panel-heading">					      <h4 class="panel-title">						<a data-toggle="collapse" data-parent="#accordion" href="#registry">						  <img class="room_icons" src="css/images/encyclopedia/rooms/doctorlife_registryicon.png" alt="Registry Icon"/>						</a>					      </h4>					    </div>					    <div id="registry" class="panel-collapse collapse">					      <div class="panel-body">						<div class="row">							<div class="room_images col-md-10 col-md-offset-2">								<img src="images/symptoms/icon_symptom_body_ache.png" alt="Registry Room"/>							</div>						</div>												<br>											<div class="room_descriptions col-md-12">							<p>Registry: Detects many symptoms by allowing your patients to complain about them.</p><br>							<p>Detects a lot of symptoms as this room allows your patients to register their complaints.</p>											</div>												<div class="symptoms_set col-md-4">							<div class="symptoms row">								<div class="symptoms_icon col-xs-2">									<img src="images/symptoms/icon_symptom_body_ache.png" alt="Body Ache"/>								</div>								<div class="symptoms_description col-xs-10">									<p>Body Ache</p>								</div>							</div>							</div>												<div class="symptoms_set col-md-4">							<div class="symptoms row">								<div class="symptoms_icon col-xs-2">									<img src="images/symptoms/icon_symptom_body_ache.png" alt="Symptom Icon"/>								</div>								<div class="symptoms_description col-xs-10">									<p>Body Ache</p>								</div>							</div>							</div>												<div class="symptoms_set col-md-4">							<div class="symptoms row">								<div class="symptoms_icon col-xs-2">									<img src="images/symptoms/icon_symptom_body_ache.png" alt="Symptom Icon"/>								</div>								<div class="symptoms_description col-xs-10">									<p>Body Ache</p>								</div>							</div>							</div>					      </div>					    </div>					  </div>  				</div>							<!--Thermometer Room-->				<div class="element rooms diagnosis panel-group" id="accordion">					  <div class="panel panel-default">					    <div class="panel-heading">					      <h4 class="panel-title">						<a data-toggle="collapse" data-parent="#accordion" href="#thermometer">						  <img class="room_icons" src="css/images/encyclopedia/rooms/doctorlife_thermometericon.png" alt="Registry Icon"/>						</a>					      </h4>					    </div>					    <div id="thermometer" class="panel-collapse collapse">					      <div class="panel-body">						<div class="row">							<div class="room_images col-md-10">								<img src="images/symptoms/icon_symptom_body_ache.png" alt="Registry Room"/>							</div>						</div>												<br>											<div class="room_descriptions col-md-12">							<p>Temperature Room: Detects the Fever symptom.</p><br>							<p>Detects the Fever symptoms with sensitive thermometers.</p>											</div>												<div class="symptoms_set col-md-4">							<div class="symptoms row">								<div class="symptoms_icon col-xs-2">									<img src="images/symptoms/icon_symptom_body_ache.png" alt="Body Ache"/>								</div>								<div class="symptoms_description col-xs-10">									<p>Body Ache</p>								</div>							</div>							</div>												<div class="symptoms_set col-md-4">							<div class="symptoms row">								<div class="symptoms_icon col-xs-2">									<img src="images/symptoms/icon_symptom_body_ache.png" alt="Symptom Icon"/>								</div>								<div class="symptoms_description col-xs-10">									<p>Body Ache</p>								</div>							</div>							</div>												<div class="symptoms_set col-md-4">							<div class="symptoms row">								<div class="symptoms_icon col-xs-2">									<img src="images/symptoms/icon_symptom_body_ache.png" alt="Symptom Icon"/>								</div>								<div class="symptoms_description col-xs-10">									<p>Body Ache</p>								</div>							</div>							</div>					      </div>					    </div>					  </div>  				</div>							<!--Cafe-->				<div class="element rooms vip panel-group" id="accordion">					  <div class="panel panel-default">					    <div class="panel-heading">					      <h4 class="panel-title">						<a data-toggle="collapse" data-parent="#accordion" href="#cafe">						  <img class="room_icons" src="css/images/encyclopedia/rooms/doctorlife_thermometericon.png" alt="Registry Icon"/>						</a>					      </h4>					    </div>					    <div id="cafe" class="panel-collapse collapse">					      <div class="panel-body">						<div class="row">							<div class="room_images col-md-10 col-md-offset-2">								<img src="images/symptoms/icon_symptom_body_ache.png" alt="Registry Room"/>							</div>						</div>												<br>											<div class="room_descriptions col-md-12">							<p>Temperature Room: Detects the Fever symptom.</p><br>							<p>Detects the Fever symptoms with sensitive thermometers.</p>											</div>												<div class="symptoms_set col-md-4">							<div class="symptoms row">								<div class="symptoms_icon col-xs-2">									<img src="images/symptoms/icon_symptom_body_ache.png" alt="Body Ache"/>								</div>								<div class="symptoms_description col-xs-10">									<p>Body Ache</p>								</div>							</div>							</div>												<div class="symptoms_set col-md-4">							<div class="symptoms row">								<div class="symptoms_icon col-xs-2">									<img src="images/symptoms/icon_symptom_body_ache.png" alt="Symptom Icon"/>								</div>								<div class="symptoms_description col-xs-10">									<p>Body Ache</p>								</div>							</div>							</div>												<div class="symptoms_set col-md-4">							<div class="symptoms row">								<div class="symptoms_icon col-xs-2">									<img src="images/symptoms/icon_symptom_body_ache.png" alt="Symptom Icon"/>								</div>								<div class="symptoms_description col-xs-10">									<p>Body Ache</p>								</div>							</div>							</div>					      </div>					    </div>					  </div>  				</div>							<!--Simple Lab-->				<div class="element rooms admin panel-group" id="accordion">					  <div class="panel panel-default">					    <div class="panel-heading">					      <h4 class="panel-title">						<a data-toggle="collapse" data-parent="#accordion" href="#simplelab">						  <img class="room_icons" src="css/images/encyclopedia/rooms/doctorlife_thermometericon.png" alt="Registry Icon"/>						</a>					      </h4>					    </div>					    <div id="simplelab" class="panel-collapse collapse">					      <div class="panel-body">						<div class="row">							<div class="room_images col-md-10">								<img src="images/symptoms/icon_symptom_body_ache.png" alt="Registry Room"/>							</div>						</div>												<br>											<div class="room_descriptions col-md-12">							<p>Temperature Room: Detects the Fever symptom.</p><br>							<p>Detects the Fever symptoms with sensitive thermometers.</p>											</div>												<div class="symptoms_set col-md-4">							<div class="symptoms row">								<div class="symptoms_icon col-xs-2">									<img src="images/symptoms/icon_symptom_body_ache.png" alt="Body Ache"/>								</div>								<div class="symptoms_description col-xs-10">									<p>Body Ache</p>								</div>							</div>							</div>												<div class="symptoms_set col-md-4">							<div class="symptoms row">								<div class="symptoms_icon col-xs-2">									<img src="images/symptoms/icon_symptom_body_ache.png" alt="Symptom Icon"/>								</div>								<div class="symptoms_description col-xs-10">									<p>Body Ache</p>								</div>							</div>							</div>												<div class="symptoms_set col-md-4">							<div class="symptoms row">								<div class="symptoms_icon col-xs-2">									<img src="images/symptoms/icon_symptom_body_ache.png" alt="Symptom Icon"/>								</div>								<div class="symptoms_description col-xs-10">									<p>Body Ache</p>								</div>							</div>							</div>					      </div>					    </div>					  </div>  				</div>			
+				<div class="element post-transition metal">...</div>
+				<div class="element alkali metal">...</div>
+				<div class="element transition metal">...</div>
+				<div class="element lanthanoid metal inner-transition">...</div> 
+				<div class="element halogen nonmetal">...</div> 
+				<div class="element alkaline-earth metal">...</div>
+			</div>			
+	
+	
+	
+	
+	<!-- Footer -->
+		<hr>
+		
+		<!-- Large Screen Footer -->
+		<div class="pc-only row text-center footer" style="display:inline-block">	
+			<div class="col-sm-3">&copy; 2013 Wigu Games. All rights reserved</div>
+			<div class="col-sm-6">
+				<ul class="footer-nav nav nav-justified">
+					<li class="active"><a href="index.html #home">Home</a></li>
+					<li>|</li>
+					<li><a href="index.html #about">About Us</a></li>
+					<li>|</li>
+					<li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="index.html #lifeseries">Our Games <b class="caret"></b></a>
+							<ul class="dropdown-menu">
+							<!-- 	<li class="dropdown-header">Life Series</li> -->
+								<li><a href="doctorlife.html">Doctor Life <span class="label label-primary istok">Coming Soon!</span></a></li>
+								<li><a>Chef Life  <span class="label label-primary istok">Coming Soon!</span></a></li>
+<!-- 								<li class="divider"></li>
+								<li class="dropdown-header">Casual</li>
+								<li><a href="#">Battle Forge</a></li> -->
+							</ul>
+					</li>
+					<li>|</li>
+					<li><a href="index.html #community">Community</a></li>
+					<li>|</li>
+					<li><a href="index.html #contact">Contact</a></li>				
+				</ul>
+			</div>
+			<div class="wigu-tag col-sm-2 col-sm-offset-1">Made by <img src="css/images/logo_wigu.png"/></div>
+		</div>
+	
+	</div>
+	
+</section>
+
+
+
+
+<!-- Mobile Footer -->
+
+<div class="mobile-only row text-center">	
+	<div class="col-sm-2">&copy; Wigu Games. All rights reserved</div>
+	<div class="col-sm-2">Made by <img src="css/images/logo_wigu.png"/></div>
+</div>
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery.js"></script>    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/bootstrap.min.js"></script>    <!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/wigu.js"></script><script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/jquery.isotope.min.js"></script><script src="js/encyclopedia.js"></script>
+
+<script src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
+<script type="text/javascript" src="js/jquery.fancybox-buttons.js"></script>
+<script src="js/encyclopedia.js"></script>
+
+
+
+
+
+</body>
+</html>
