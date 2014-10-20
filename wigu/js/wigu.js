@@ -387,31 +387,6 @@ function updateVideo(){
     }) .resize(); // trigger resize event
 
 
-$("#read-more").click(function() {
-	$("#read-more").load("communitynews.html", function(){
-	});
-	$("#read-more").removeClass("text-center");
-});
-
-// function initialize() {
-	// var map_canvas = document.getElementById('map-canvas');
-	// var map_options = {
-	  // center: new google.maps.LatLng(3.092051,101.543838),
-	  // zoom: 13,
-	 // <!--  mapTypeId: google.maps.MapTypeId.ROADMAP -->
-	// }
-	// var map = new google.maps.Map(map_canvas, map_options);
-
-	// var marker = new google.maps.Marker({
-		// position: new google.maps.LatLng(3.092051,101.543838),
-		// map:map,
-		// title:"Wigu Studios!",
-		// icon:"css/images/icn_mapindicator.png"
-	// });
-
-
-// }
-// google.maps.event.addDomListener(window, 'load', initialize);
 
 $(window).resize(mapHeight);
 $(window).load(mapHeight);
@@ -447,3 +422,4 @@ function mapHeight(){
 $(document).ready(function() {
 		$(".fancybox").fancybox();
 	});
+/* Community Tabs */$('#facebookposts a').click(function (e) {  e.preventDefault()  $(this).tab('show')})$('#articlesreviews a').click(function (e) {  e.preventDefault()  $(this).tab('show')})	
