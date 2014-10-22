@@ -1,7 +1,0 @@
-Gradient Color
-lighter (up) : cd8533
-darker (down) : 7c501e
-
-Font
-Title : Abril Fatface
-Body : Josefin Sans
