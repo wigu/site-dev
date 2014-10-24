@@ -586,8 +586,15 @@ Community
 		font-size: 120%;
 	}
 	
+	.community-nav>li.active>a, .nav>li>a:hover, .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+		background-color:#FFDBBC;
+		border-color:none;
+	}
+	
+	
 	.community-nav>li.active>a, .community-nav>li.active>a:hover, .community-nav>li.active>a:focus{
 		border:none;
+		
 	}
 	
 	.community-nav img{
