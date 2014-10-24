@@ -308,12 +308,26 @@ Home Page
 	}
 	
 	#img_left{
-		margin-left: -218px;
+		margin-left: -238px;
+		z-index: -1;
 	}	
 	#img_right{
 		margin-left: 1090px;
 	}
-		#mainpagecanvas label{		font-weight:bold;	}		 #mainpagecanvas .checkbox p{		line-height:1;		font-size: 60%;		vertical-align: text-bottom;	}		#signup-mainpage{		background: url(images/button_signup.png) no-repeat;		height:82px;		width:167px;	}
+	
+	#mainpagecanvas label{		font-weight:bold;	}
+	
+	#mainpagecanvas .listitems label{
+		font-weight:normal;
+	}	
+	
+	#form-mainpagecanvas  li{
+		list-style: none;
+		font-weight:normal;
+		line-height:normal;
+	}
+	
+		 #mainpagecanvas .checkbox p{		line-height:1;		font-size: 60%;		vertical-align: text-bottom;	}		#signup-mainpage{		background: url(images/button_signup.png) no-repeat;		height:82px;		width:167px;	}
 	
 	#signup-mainpage:hover,#signup-mainpage:focus{
 		outline:none;
@@ -327,7 +341,21 @@ Home Page
 		margin-left:-60px;
 		margin-right:-60px;
 		background:url("images/fence.png") repeat-x;
-	}		#home #mc_embed_signup {		padding-left:0;			}		#home #mce-EMAIL{		height:29px;		border-radius:0;		width:60%;	}	#home form label {		color:black;	}	#home .subscribe_tag{		font-size:150%;	}		#home #mc-embedded-subscribe{		background-image:url(images/button_submit2.png);		width:85px;		height:29px;	}		.wigu_highlights{		padding-top: 40px;	}
+	}
+	
+	#form-mainpagecanvas input {
+		line-height: normal;
+	}	/* 	#home #mc_embed_signup {		padding-left:0;			}		#home #mce-EMAIL{		height:29px;		border-radius:0;		width:60%; 	}*/
+	
+	.name input
+	 {
+		width:70%;
+	}
+	
+
+	
+
+		#home form label {		color:black;	}	#home .subscribe_tag{		font-size:150%;	}	/* 	#home #mc-embedded-subscribe{		background-image:url(images/button_submit2.png);		width:85px;		height:29px;	} */		.wigu_highlights{		padding-top: 40px;	}
 
 
 /*===================================
@@ -529,7 +557,7 @@ Life Series
 			
 		}
 
-		#mc_embed_signup label{
+/* 		#mc_embed_signup label{
 			padding-top: 5%;
 			color:white;
 			font-size: 1.2em;
@@ -540,10 +568,10 @@ Life Series
 			
 			width:50%;
 			border-radius: 5px;
-			height: 56px;
+			height: 56px; */
 		}
 
-		#mc-embedded-subscribe{
+/* 		#mc-embedded-subscribe{
 			background-image:url(images/doctorlife/button_submit.png);
 			width:162px;
 			height:56px;
@@ -551,7 +579,7 @@ Life Series
 			border:0;
 			background-color:transparent;
 			vertical-align:bottom;
-		}
+		} */
 		
 		.iphone-label{
 			color:white;
@@ -785,16 +813,16 @@ Mobile Only <767px
 			form{
 				padding-bottom:5%;
 			}
-			
+			/* 
 			#mce-EMAIL{
 				height:30px;
-			}
+			} */
 			
-			#mc-embedded-subscribe{
+/* 			#mc-embedded-subscribe{
 				width:81px;
 				height:28px;
 				background-size:cover;
-			}
+			} */
 			
 			.iphone{
 				padding-top: 5%;
