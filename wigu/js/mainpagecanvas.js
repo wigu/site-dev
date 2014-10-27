@@ -10,6 +10,8 @@ $("#submit-mainpage").hover(function(){
 	$("#submit-mainpage").css("background", "url(css/images/button_submit.png) no-repeat")
 });
 
+
+
 /* ================
 Dogs and Characters
 =================*/
@@ -95,5 +97,10 @@ function animate() {
 }
 
 
-
+$('#form-mainpagecanvas').on('shown.bs.collapse', function (e) {
+	var distTop = $('#signup-mainpage').offset().top;
+	$("section#home").animate({
+	  scrollTop: distTop-50
+	},"500");
+});
 
