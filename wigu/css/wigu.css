@@ -296,10 +296,10 @@ Home Page
 		top:5px;
 		left:11.426%;
 	}	.doctorlife_trailer {		background-image:url(images/videoborder_left.png), url(images/videoborder_right.png);		background-position: 7.5%, 93.5%;		background-repeat:no-repeat;	}		.doctorlife_trailer iframe{		/* padding-top: 0px;		padding-left:0px; */		display:block;		margin-left: auto;		margin-right:auto;		height:150%;		width:100%;		}		#mainpagecanvas{
-		background: -webkit-linear-gradient(#cd8533, #7c501e); /* For Safari 5.1 to 6.0 */
-		background: -o-linear-gradient(#cd8533, #7c501e); /* For Opera 11.1 to 12.0 */
-		background: -moz-linear-gradient(#cd8533, #7c501e); /* For Firefox 3.6 to 15 */
-		background: linear-gradient(#cd8533, #7c501e); /* Standard syntax */	}
+		background: -webkit-linear-gradient(#fe9843, #ffc173); /* For Safari 5.1 to 6.0 */
+		background: -o-linear-gradient(#fe9843, #ffc173); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(#fe9843, #ffc173); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(#fe9843, #ffc173); /* Standard syntax */	}
 	
 	#mainpagecanvas img{
 		height:500px;
@@ -370,22 +370,22 @@ About Us
 		
 	}
 
-	#aboutus-founders{
+	.aboutus-founders{
 		height:5px;
 		background-color: #db0000;
 	}
 	
-	#aboutus-solvers{
+	.aboutus-solvers{
 		height:5px;
 		background-color: #63b800;
 	}
 	
-	#aboutus-imagineers{
+	.aboutus-imagineers{
 		height:5px;
 		background-color: #ffa600;
 	}
 
-	#aboutus-crafters{
+	.aboutus-crafters{
 		height:5px;
 		background-color: #0096ff;
 	}
@@ -568,8 +568,8 @@ Life Series
 			
 			width:50%;
 			border-radius: 5px;
-			height: 56px; */
-		}
+			height: 56px; 
+		}*/
 
 /* 		#mc-embedded-subscribe{
 			background-image:url(images/doctorlife/button_submit.png);
@@ -616,7 +616,7 @@ Community
 	
 	.community-nav>li.active>a, .nav>li>a:hover, .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
 		background-color:#FFDBBC;
-		border-color:none;
+		border-color:transparent;
 	}
 	
 	
