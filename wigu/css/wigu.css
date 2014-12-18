@@ -296,19 +296,19 @@ Home Page
 		top:5px;
 		left:11.426%;
 	}	.doctorlife_trailer {		background-image:url(images/videoborder_left.png), url(images/videoborder_right.png);		background-position: 7.5%, 93.5%;		background-repeat:no-repeat;	}		.doctorlife_trailer iframe{		/* padding-top: 0px;		padding-left:0px; */		display:block;		margin-left: auto;		margin-right:auto;		height:150%;		width:100%;		}		#mainpagecanvas{
-		background: -webkit-linear-gradient(#fe9843, #ffc173); /* For Safari 5.1 to 6.0 */
-		background: -o-linear-gradient(#fe9843, #ffc173); /* For Opera 11.1 to 12.0 */
-		background: -moz-linear-gradient(#fe9843, #ffc173); /* For Firefox 3.6 to 15 */
-		background: linear-gradient(#fe9843, #ffc173); /* Standard syntax */	}
+		background: -webkit-linear-gradient(#C5FBFF, #FBFFE8); /* For Safari 5.1 to 6.0 */
+		background: -o-linear-gradient(#C5FBFF, #FBFFE8); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(#C5FBFF, #FBFFE8); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(#C5FBFF, #FBFFE8); /* Standard syntax */	}
 	
 	#mainpagecanvas img{
-		height:500px;
+		height:400px;
 		width:auto;
 		position: absolute;
 	}
 	
 	#img_left{
-		margin-left: -238px;
+		margin-left: -200px;
 		z-index: -1;
 	}	
 	#img_right{
@@ -343,6 +343,25 @@ Home Page
 		background:url("images/fence.png") repeat-x;
 	}
 	
+	#grasscanvas{
+		margin-left:-60px;
+		margin-right:-60px;
+		width:1150px;
+		height:85px;
+		background-color:green;
+		margin-top:-50px;
+	}
+	
+	#minigrass{
+		background:url("images/grass_a.png") 50px repeat-x;
+		margin-left:-60px;
+		margin-right:-60px;
+		width:1150px;
+		z-index:5;
+		height:20px;
+		margin-top: -20px;
+	}
+	
 	#form-mainpagecanvas input {
 		line-height: normal;
 	}	/* 	#home #mc_embed_signup {		padding-left:0;			}		#home #mce-EMAIL{		height:29px;		border-radius:0;		width:60%; 	}*/
@@ -361,6 +380,14 @@ Home Page
 /*===================================
 About Us
 ===================================*/
+	#aboutus-info{
+		padding-top:20px;
+	}
+	
+	#aboutus-canvas{
+		padding-top: 30px;
+	}
+	
 	#aboutus-canvas h2{
 		position:absolute;
 		top:8px;
@@ -368,6 +395,10 @@ About Us
 		font-size:1em;
 		
 		
+	}
+	
+	.tab-content{
+		padding-top:30px;
 	}
 
 	.aboutus-founders{
