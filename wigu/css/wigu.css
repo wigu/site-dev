@@ -640,6 +640,15 @@ Community
 	.articlereview{
 		border: dashed;
 		border-width:2px;
+		padding: 10px;
+	}
+	
+	.articlereview div{
+		padding: 5px;
+	}
+	
+	.articlereview div img{
+		vertical-align:middle;
 	}
 /*===================================
 Contact
