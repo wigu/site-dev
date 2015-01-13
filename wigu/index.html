@@ -87,10 +87,11 @@ Navigation Bar
 							<a class="dropdown-toggle" data-toggle="dropdown" href="#lifeseries">Our Games <b class="caret"></b></a>
 							<ul class="dropdown-menu">
 							<!-- 	<li class="dropdown-header">Life Series</li> -->
-								<li><a href="doctorlife.html">Doctor Life <span class="label label-primary istok">Released!</span></a></li>
-								<li><a href ="doctorlife.html">Doctor Life for Kids  <span class="label label-primary istok">Released!</span></a></li>
-								<li><a>Canine Life  <span class="label label-default istok">Coming Soon!</span></a></li>
-								<li><a>Chef Life  <span class="label label-default istok">In development</span></a></li>
+								<li><a href="#lifeseries">Doctor Life <span class="label label-primary istok">Released!</span></a></li>
+								<li><a href ="#lifeseries">Doctor Life for Kids  <span class="label label-primary istok">Released!</span></a></li>
+								<li><a href ="#lifeseries">Canine Life  <span class="label label-default istok">Coming Soon!</span></a></li>
+								<li><a href ="#lifeseries">Doctor Life Free! <span class="label label-default istok">Coming Soon!</span></a></li>
+								<li><a href ="#lifeseries">Chef Life  <span class="label label-default istok">In development</span></a></li>
 <!-- 								<li class="divider"></li>
 								<li class="dropdown-header">Casual</li>
 								<li><a href="#">Battle Forge</a></li> -->
@@ -217,6 +218,8 @@ Home Page
 				
 				
 				<div  id="bottomcanvas" class=""></div>
+				<div id="grasscanvas"></div>
+				<div id="minigrass"></div>
 			</div>
 			
 			
@@ -335,7 +338,7 @@ About Us
 				</div>		
 			</div>
 			
-			<div class="row">
+			<div class="row" id="aboutus-info">
 				<blockquote>
 					<p class="text-left ">WIGU is an acronym which stands for When I Grow Up. We're all about exploring what you want to be when you grow up, or what you wanted to be when you were growing up. It is this desire that has inspired our vision and design philosophy.</p>
 				</blockquote>
@@ -458,6 +461,7 @@ Our Games
 				<div class="col-xs-3 col-md-1"><a href="#doctorlife"><img class="img-responsive" src="css/images/icon_doctorlife.png" alt="WIGU Doctor Life icon"/></a></div>
 				<div class="col-xs-3 col-md-1"><a href="#doctorlifeforkids"><img class="img-responsive" src="css/images/icon_doctorlifekids.png" alt="WIGU Doctor Life Kids icon"/></a></div>
 				<div class="col-xs-3 col-md-1"><a href="#caninelife"><img class="img-responsive" src="css/images/icon_caninelife.png" alt="WIGU Canine Life icon"/></a></div>
+				<div class="col-xs-3 col-md-1"><a href="#doctorlifefree"><img class="img-responsive" src="css/images/icon_doctorlifefree.png" alt="WIGU Doctor Life Free icon"/></a></div>
 				<div class="col-xs-3 col-md-1"><a href="#cheflife"><img class="img-responsive" src="css/images/icon_cheflife.png" alt="WIGU Chef Life icon"/></a></div>
 
 				
@@ -631,13 +635,7 @@ Our Games
 							<div class="col-sm-1"> </div>
 						</div>
 					</div>
-					
-					<div class="col-sm-12 platform">
-						<div class = "col-sm-12 text-center">
-							<a href = "/press"><img class = "presskit" src = "css/images/wigudoctorlife_presskit.png" alt="plug accent"/></a>
-						</div>
-						
-					</div>
+			
 				</div>
 				
 				
@@ -671,7 +669,7 @@ Our Games
 					</div>
 				</div>
 			</div>
-
+			
 			<!--CANINE LIFE-->
 			<div id="caninelife" class="box">
 				<div class="row">
@@ -745,10 +743,10 @@ Our Games
 				
 				
 				<div class="row screenshots-dashed text-center oleo">
-					<a data-toggle="collapse" data-target="#screenshots_3">Screenshots</a>
+					<a data-toggle="collapse" data-target="#screenshots_4">Screenshots</a>
 				</div> 
 				
-				<div id="screenshots_3" class="collapse">
+				<div id="screenshots_4" class="collapse">
 					<div class="row screenshots">
 						<div class="col-sm-4">
 							<a class="fancybox" href="css/images/product_printscreen3.jpg"><img src="css/images/caninelife_1.png" alt="Canine Life screenshot 1"/></a>
@@ -774,11 +772,11 @@ Our Games
 					</div>
 				</div>
 			</div>
-		  
-			<!--CHEF LIFE-->
-			<div id="cheflife" class="box">
+
+			<!--DOCTOR LIFE FREE-->
+			<div id="doctorlifefree" class="box">
 				<div class="row">
-					<div class="screenshots col-sm-2"><img class="img-responsive" src="css/images/icon_cheflife.png" alt="WIGU Chef Life icon">
+					<div class="screenshots col-sm-2"><a href="doctorlife.html"><img class="img-responsive" src="css/images/doctorlifefree_appicon.png" alt="WIGU Doctor Life Free icon"/></a>
 					</div>
 					
 					<div class="title col-sm-9">
@@ -788,16 +786,27 @@ Our Games
 								<img src="css/images/plug.png" alt="plug accent"/>
 							</div>
 							<div class="text-center ribbon-orange col-xs-12 double-border">
-								<a href="doctorlife.html"><h2 class="oleo">Chef Life: Delicious!</h2></a>
+								<a href="doctorlife.html"><h2 class="oleo">Doctor Life Free!</h2></a>
 							</div>
 						</div>
 						
+						<!--video-->
+						<div class="row">
+							<div class="col-md-6 col-md-offset-3">
+								<div class="embed-responsive embed-responsive-16by9 text-center">
+									<iframe class="embed-responsive-item" src="//www.youtube.com/embed/HDLbI1feSOI" allowfullscreen></iframe>
+								</div>
+							</div>
+						</div>
+						<br>
+						
 						<!--info-->
 						<div class="row">
-							<p class="product-description">A work in progress. Stay tuned!</p><br>
+							<p class="product-description">Doctor Life for Kids is a challenging educational simulation and time management game where you learn what it takes to be a Doctor. Have fun while learning the symptoms of diseases and how to treat them!</p><br>
 
+							<p class="product-description">Set in a charming little city with wacky patients, you must grow your humble clinic into a multistory hospital! You will meet patients along your journey and help them by diagnosing and treating their diseases with actual treatments. Beware though! There is an evil tycoon out to buy the land your hospital is on. Earn awards for hospital excellence to save your hospital from his grubby hands.</p><br>
 							<p class="product-description">Articles</p>
-							<p class="product-description">"Canine Life is certainly shaping up to be one of next year's most interesting indie games"<a href = "http://www.gamesinasia.com/can-wigu-games-make-a-dogs-home-the-next-big-management-sim/" target = "_blank">  - Games in Asia</a></p>
+							<p class="product-description">"Medical Mayhem at its Best" (4/5 stars)<a href = "http://bit.ly/1iuImwr" target = "_blank">  - Touch Arcade</a></p>
 	<!-- 						<p class="product-description"><a href = "https://play.google.com/store/apps/details?id=com.wigugames.doctorlife" target = "_blank">Take me to the Google Play Store!</a></p> -->
 						</div>
 						<br>
@@ -825,18 +834,65 @@ Our Games
 						</div>
 					</div>
 					
-<!-- 					<div class="col-sm-12 platform">
-						<div class = "col-sm-12 text-center">
-							<a href = "/press"><img class = "presskit" src = "css/images/wigudoctorlife_presskit.png"/></a>
-						</div>
-						
-					</div> -->
 				</div>
 				
 				
 				<div class="row screenshots-dashed text-center oleo">
-					<p data-toggle="collapse" data-target="#screenshots_4">Screenshots</p>
+					<a data-toggle="collapse" data-target="#screenshots_3">Screenshots</a>
 				</div> 
+				
+				<div id="screenshots_3" class="collapse">
+					<div class="row screenshots">
+						<div class="col-sm-4">
+							<a class="fancybox" href="css/images/product_printscreen3.jpg"><img src="css/images/product_printscreen3.jpg" alt="Doctor Life Kids screenshot 1"/></a>
+						</div>
+						<div class="col-sm-4">
+							<a class="fancybox" href="css/images/doctorlife_07r.jpg"><img src="css/images/doctorlife_07r.jpg" alt="Doctor Life Kids screenshot 2"/></a>
+						</div>
+						<div class="col-sm-4">
+							<a class="fancybox" href="css/images/doctorlife_08r.jpg"><img src="css/images/doctorlife_08r.jpg" alt="Doctor Life Kids screenshot 3"/></a>
+						</div>					
+					</div>
+					
+					<div class="row screenshots">
+						<div class="col-sm-4">
+							<a class="fancybox" href="css/images/doctorlife_09r.jpg"><img src="css/images/doctorlife_09r.jpg" alt="Doctor Life Kids screenshot 4"/></a>
+						</div>
+						<div class="col-sm-4">
+							<a class="fancybox" href="css/images/doctorlife_10r.jpg"><img src="css/images/doctorlife_10r.jpg" alt="Doctor Life Kids screenshot 5"/></a>
+						</div>					
+						<div class="col-sm-4">
+							<a class="fancybox" href="css/images/product_printscreen6.jpg"><img src="css/images/product_printscreen6.jpg" alt="Doctor Life Kids screenshot 6"/></a>
+						</div>
+					</div>
+				</div>
+			</div>			
+			
+			<!--CHEF LIFE-->
+			<div id="cheflife" class="box">
+				<div class="row">
+					<div class="screenshots col-sm-2"><img class="img-responsive" src="css/images/icon_cheflife.png" alt="WIGU Chef Life icon">
+					</div>
+					
+					<div class="title col-sm-9">
+						<!--title-->
+						<div class="row">
+							<div class="text-center col-xs-12 double-border">
+								<img src="css/images/plug.png" alt="plug accent"/>
+							</div>
+							<div class="text-center ribbon-orange col-xs-12 double-border">
+								<a href="doctorlife.html"><h2 class="oleo">Chef Life: Delicious!</h2></a>
+							</div>
+						</div>
+						
+						<!--info-->
+						<div class="row">
+							<p class="product-description">A work in progress. Stay tuned!</p><br>
+
+						</div>
+					</div>
+				</div>
+				
 				
 			</div>
 		  
@@ -984,10 +1040,19 @@ Community
 				
 				<!-- Articles -->
 				<div class="tab-pane" id="articlesreviews">
+<<<<<<< HEAD
 					<div class="row articlereview">
 						<div class="col-xs-1">
 							<img src="css/images/icon_news.png" alt="News"/>
 							<p class="text-center">28 July 2013</p>
+=======
+					<div>
+						Coming Soon!
+					</div>
+				
+					<!-- <div class="row articlereview">
+						<div class="col-xs-1"><img src="css/images/icon_news.png" alt="News"/>
+>>>>>>> 45bb0703e0b891513eec48d652d4c12299c8c037
 						</div>
 						<div class="col-xs-11">
 							<div class="oleo vision">
@@ -1006,20 +1071,9 @@ Community
 								<p> by Chong Jinn Xiung, read more at <a href="http://www.thestar.com.my/Tech/Games/2014/03/10/Day-of-the-doctor/" target="_blank">The Star Newspaper</a></p>
 							</div>
 						</div>
-					</div>
+					</div> -->
 				
-					<!-- <ul id ="articles">
-						<li>HAVE you ever dreamed of being a doctor? We did but as we didn't make the grade, we have been growing up on PC simulations such as Theme Hospital...</li>
-						<p>"Doctor Life: Day of the doctor", Chong Jinn Xiung, <a href="http://www.thestar.com.my/Tech/Games/2014/03/10/Day-of-the-doctor/" target="_blank">The Star Newspaper</a></p><br>
-						<li>HAVE you ever dreamed of being a doctor? We did but as we didn't make the grade, we have been growing up on PC simulations such as Theme Hospital...</li>
-						<p>"Doctor Life: Day of the doctor", Chong Jinn Xiung, <a href="http://www.thestar.com.my/Tech/Games/2014/03/10/Day-of-the-doctor/" target="_blank">The Star Newspaper</a></p><br>
-						<li>HAVE you ever dreamed of being a doctor? We did but as we didn't make the grade, we have been growing up on PC simulations such as Theme Hospital...</li>
-						<p>"Doctor Life: Day of the doctor", Chong Jinn Xiung, <a href="http://www.thestar.com.my/Tech/Games/2014/03/10/Day-of-the-doctor/" target="_blank">The Star Newspaper</a></p><br>
-						<li>HAVE you ever dreamed of being a doctor? We did but as we didn't make the grade, we have been growing up on PC simulations such as Theme Hospital...</li>
-						<p>"Doctor Life: Day of the doctor", Chong Jinn Xiung, <a href="http://www.thestar.com.my/Tech/Games/2014/03/10/Day-of-the-doctor/" target="_blank">The Star Newspaper</a></p><br>
-						<li>HAVE you ever dreamed of being a doctor? We did but as we didn't make the grade, we have been growing up on PC simulations such as Theme Hospital...</li>
-						<p>"Doctor Life: Day of the doctor", Chong Jinn Xiung, <a href="http://www.thestar.com.my/Tech/Games/2014/03/10/Day-of-the-doctor/" target="_blank">The Star Newspaper</a></p><br>
-					</ul> -->
+
 				
 				</div>
 			</div>
