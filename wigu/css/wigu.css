@@ -1,195 +1,264 @@
+/* =================================
+Copyright 2014 - 2015 WIGU Games
+written for - www.wigugames.compact
 
-
+swatch colors
+==========
+
+#fe9843 - dark orange highlight text
+
+
+
+
+===================================*/
+
+
+/*Resets and overrides*/
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-	margin:0;
-	padding:0;
-	border:0;
-	font-size:100%;
-	font:inherit;
+	margin:0;
+	padding:0;
+	border:0;
+	font-size:100%;
+	font:inherit;
 	vertical-align:baseline;
 }
-
-
-
 html,body{
 	overflow-x:hidden;
 }
+body{
+	overflow-y:hidden;
+}
+
+row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+
+	display:block;
+
+}
+
+section{
+
+	width:100%;
+
+	height:100%;
+
+	position:absolute;
+
+	z-index:50;
+
+	overflow-y: auto;
+
+	overflow-x:hidden;
+
+	padding-top:40px;
+
+}
+
+p{
+
+	word-wrap:break-word;
+
+}
+
+h1 p{
+
+	display:none;
+
+}
+
+h2{
+
+	font-size: 180%; 
+	font-weight: 700;
+
+}
+
+img{
+
+	width:100%;
+
+}
+
+/* .container{
+
+	padding:40px 10px 0px 10px;
+
+	border:0;
+
+
+} */
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12{
+
+	padding-right:0px;
+
+	padding-left:0px;
+
+}
+
+/*Fonts*/
+
+a {
+	color: black;
+}
+
+.font-a {
+ 	font-family: 'Abril Fatface', cursive;
+}
+
+.font-b {
+ 	font-family: 'Josefin Sans', sans-serif;
+}
+
+/* .font-c {
+ 	font-family: 'Josefin Sans', sans-serif;
+}
+
+@font-face {
+
+  font-family: "AFM";
+
+  src: url(fonts/alphafridgemagnets.ttf) format("truetype");
+
+}
+
+.galindo{
+
+	font-family: 'Galindo', cursive;
+
+}
+
+.AFM{
+
+	font-family: 'AFM',cursive;
+
+}
+
+.istok{
+
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+ */
+
+.isHeader{
+
+	color:black;
+
+	font-size: 150%;
+
+}
+ 
+ .isExtraLarge{
+			font-size: 250%;
+ }/*Links and type*/
+
+::selection {
+
+background:#fe9843;
+
+}
+
+::-moz-selection {
+
+background:#fe9843;
+
+}
+
+
+/*Callout Boxes*/
+
+
+/*Layout*/
+
+.column{
+
+	padding-left:20px;
+
+	padding-right:20px;
+
+}
+.rowSpacing{
+	padding-top: 20px;
+	padding-bottom:20px;
+}
+.footer-brand{
+
+	vertical-align:top;
+
+}
+.grey-box {
+	padding: 20px;
+	background-color: #F8F8F8 ;
+	box-shadow: 5px 5px 5px #888888;
+}
+
+/*Form Elements*/
+
+
+/*Misc*/
+
+.wigu-red{
+	height:5px;
+	background-color: #db0000;
+}
+
+.wigu-green{
+	height:5px;
+	background-color: #63b800;
+}
+
+.wigu-orange{
+	height:5px;
+	background-color: #ffa600;
+}
+
+.wigu-blue{
+	height:5px;
+	background-color: #0096ff;
+}
 
-body{
-	font-family: 'Josefin Sans', sans-serif;
-	overflow-y:hidden;	
+/*Title boxes styling*/
+.double-border{
+	border-bottom: 3px double black;
+	border-width:medium; 
+	margin-bottom:5px;
 }
-
-section{
-	width:100%;
-	height:100%;
+.double-border img{
 	position:absolute;
-	z-index:50;
-	overflow-y: auto;
-	overflow-x:hidden;
-	padding-top:40px;
+	height:24px;
+	width:24px;
+	margin-top:-10px;
+	margin-left: -12px;
 }
-
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-	display:block;
+/*Footer*/
+.mobile-footer{
+	font-size: 60%;
 }
-
-.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12{
-	padding-right:0px;
-	padding-left:0px;
+.footer-nav li>ul>li{
+	text-align:left;
 }
-
-.container{
-	
-	padding:40px 10px 0px 10px;
-	border:0;
-
-	
-
+.footer-nav ul{
+	bottom:100%;
 }
-body {
-	
-	
+/*Scrollbar*/
+::-webkit-scrollbar {
+	width: 8px;
 }
-
-	
-section img{
-	width:100%;
+::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+	border-radius: 10px;
 }
-
-p{
-	word-wrap:break-word;
+::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
 }
-
-::selection
-{
-background:#fe9843;
-}
-::-moz-selection
-{
-background:#fe9843;
-}
-
-h1{
-	display:none;
-}h2{	font-size: 180%; 	font-weight: 700;}
-
-.facebook-buttons{
-	padding-bottom:40px;
-}
-
-/* .footer-nav{
-	width:80%;
-	margin:auto;
-
-} */
-
-
-
-.wigu-tag{
-	vertical-align:top;
-}
-
-.fb-like{
-	padding-left: 20px;
-}
-
-.fb-follow{
-	padding-left: 20px;
-}
-
-
-/*===================================
-Styling
-===================================*/
-	.double-border{
-		border-bottom: 3px double black;
-		border-width:medium; 
-		margin-bottom:5px;
-	}
-
-	.wigu-team{
-		border-top: 1px solid black;
-		border-bottom: 1px solid black;
-	}
-	
-	.double-border img{
-		position:absolute;
-		height:24px;
-		width:24px;
-		margin-top:-10px;
-		margin-left: -12px;
-	}
-	
-/*===================================
-Footer
-===================================*/
-
-	.mobile-footer{
-		font-size: 60%;
-	}
-
-	.footer-nav li>ul>li{
-		text-align:left;
-	}
-	
-	.footer-nav ul{
-		bottom:100%;
-	}
-	
-/*===================================
-Scrollbar
-===================================*/
-		
-	::-webkit-scrollbar {
-		width: 8px;
-	}
-	 
-	::-webkit-scrollbar-track {
-		-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
-		border-radius: 10px;
-	}
-	 
-	::-webkit-scrollbar-thumb {
-		border-radius: 10px;
-		-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
-	}
-
-
-
-/*===================================
-Fonts
-===================================*/
-@font-face {
-  font-family: "AFM";
-  src: url(fonts/alphafridgemagnets.ttf) format("truetype");
-}
-
-.oleo{
-	font-family: 'Abril Fatface', cursive;
-
-}
-
-.lobster{
-	font-family: 'Abril Fatface', cursive;
-}
-
-.galindo{
-	font-family: 'Galindo', cursive;
-}
-
-.AFM{
-	font-family: 'AFM',cursive;
-}
-
-.istok{
-	font-family: 'Josefin Sans', sans-serif;
-}
-
-/*===================================
-Preloader
-===================================*/
-
+/*Preloader*/
 #preloader{
 	position:absolute;
 	top:0;
@@ -199,7 +268,6 @@ Preloader
 	background-color: white;
 	z-index:999;
 }
-
 #loading-animation{
 	width: 200px;
 	height: 200px;
@@ -212,18 +280,12 @@ Preloader
 	margin: -100px 0 0 -100px;
 	
 }
-
-/*===================================
-Navigation Bar
-===================================*/
-
+/*Navigation Bar*/
 .navbar-wigu{
-	/* background-image: url(images/navigation.jpg); */
 	background-color:#fe9843;
 	height: 40px;
 	background-repeat:repeat-x;
 	border-radius: 0px;
-	font-family: 'Abril Fatface', cursive;
 	font-size: 120%;
 	margin-bottom:0px;
 	position:fixed;
@@ -233,69 +295,30 @@ Navigation Bar
 	border-bottom: 1px solid #c67836;
 	
 }
-
 .navbar-dashed{
 	border-top: 2px dashed #466cb0;
 	border-bottom: 2px dashed #466cb0;
 	height: 40px;
 	margin-top:4px;
 }
-
 .navbar-brand{
 	padding: 3px 15px;
 }
-
-
- 
 .nav .facebook-twitter{
 	padding-right: 7px;
 	padding-top: 4px;
 	padding-left:7px;
 }
-
 .dropdown-menu>li>a:hover{
 	background-color:#ffd49b;
 }
-
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
 	background-color:#ffd49b;
 }
-
-/* .navbar-default .navbar-collapse, .navbar-default .navbar-form{
-	border: 1px solid #fe9843;
-} */
-
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus{
 	background-color:transparent;
 }
-
-
-
-
-/*===================================
-Home Page
-===================================*/
-	.ribbon-orange{
-		/* background-color: orange; */
-		margin-bottom: 20px;
-		color:black;
-		font-size: 150%;
-	}
-	
-	#home .col-sm-4, #survey .col-sm-4{
-		padding-left:20px;
-		padding-right:20px;
-	}	#header1 {		height: 200px;	}
-	.title-click{
-		color:black;
-	}
-	
-	.carousel{
-		position:absolute;
-		width:35.45%;
-		top:5px;
-		left:11.426%;
-	}	.doctorlife_trailer {		background-image:url(images/videoborder_left.png), url(images/videoborder_right.png);		background-position: 7.5%, 93.5%;		background-repeat:no-repeat;	}		.doctorlife_trailer iframe{		/* padding-top: 0px;		padding-left:0px; */		display:block;		margin-left: auto;		margin-right:auto;		height:150%;		width:100%;		}		#mainpagecanvas{
+/*Home Page*/	#mainpagecanvas{
 		background: -webkit-linear-gradient(#C5FBFF, #FBFFE8); /* For Safari 5.1 to 6.0 */
 		background: -o-linear-gradient(#C5FBFF, #FBFFE8); /* For Opera 11.1 to 12.0 */
 		background: -moz-linear-gradient(#C5FBFF, #FBFFE8); /* For Firefox 3.6 to 15 */
@@ -314,8 +337,7 @@ Home Page
 	#img_right{
 		margin-left: 1090px;
 	}
-	
-	#mainpagecanvas label{		font-weight:bold;	}
+		#mainpagecanvas label{		font-weight:bold;	}
 	
 	#mainpagecanvas .listitems label{
 		font-weight:normal;
@@ -326,8 +348,7 @@ Home Page
 		font-weight:normal;
 		line-height:normal;
 	}
-	
-		 #mainpagecanvas .checkbox p{		line-height:1;		font-size: 60%;		vertical-align: text-bottom;	}		#signup-mainpage{		background: url(images/button_signup.png) no-repeat;		height:82px;		width:167px;	}
+	 #mainpagecanvas .checkbox p{		line-height:1;		font-size: 60%;		vertical-align: text-bottom;	}		#signup-mainpage{		background: url(images/button_signup.png) no-repeat;		height:82px;		width:167px;	}
 	
 	#signup-mainpage:hover,#signup-mainpage:focus{
 		outline:none;
@@ -344,108 +365,33 @@ Home Page
 	}
 	
 	#grasscanvas{
+		background:url("images/grass_a.png"), url("images/grass_b.png"),url("images/grass_c.png"),url("images/grass_d.png");
 		margin-left:-60px;
 		margin-right:-60px;
-		width:1150px;
 		height:85px;
 		background-color:green;
 		margin-top:-50px;
 	}
 	
-	#minigrass{
-		background:url("images/grass_a.png") 50px repeat-x;
+/* 	#minigrass{
+		
 		margin-left:-60px;
 		margin-right:-60px;
 		width:1150px;
 		z-index:5;
-		height:20px;
-		margin-top: -20px;
-	}
+		height:85px;
+		margin-top: -85px;
+	} */
 	
 	#form-mainpagecanvas input {
 		line-height: normal;
-	}	/* 	#home #mc_embed_signup {		padding-left:0;			}		#home #mce-EMAIL{		height:29px;		border-radius:0;		width:60%; 	}*/
-	
-	.name input
-	 {
+	}	
+	.name input{
 		width:50%;
 	}
-	
-
-	
-
-		#home form label {		color:black;	}	#home .subscribe_tag{		font-size:150%;	}	/* 	#home #mc-embedded-subscribe{		background-image:url(images/button_submit2.png);		width:85px;		height:29px;	} */		.wigu_highlights{		padding-top: 40px;	}
-
-
-/*===================================
-About Us
-===================================*/
-	#aboutus-info{
-		padding-top:20px;
-	}
-	
-	#aboutus-canvas{
-		padding-top: 30px;
-	}
-	
-	#aboutus-canvas h2{
-		position:absolute;
-		top:8px;
-		
-		font-size:1em;
-		
-		
-	}
-	
-	.tab-content{
-		padding-top:30px;
-	}
-
-	.aboutus-founders{
-		height:5px;
-		background-color: #db0000;
-	}
-	
-	.aboutus-solvers{
-		height:5px;
-		background-color: #63b800;
-	}
-	
-	.aboutus-imagineers{
-		height:5px;
-		background-color: #ffa600;
-	}
-
-	.aboutus-crafters{
-		height:5px;
-		background-color: #0096ff;
-	}
-	
-	.box {
-/* 		border-style: ridge;
-		border-color: grey grey;
-		border-width:thick; */
-		padding: 20px;
-		margin:20px 15px 20px 15px;
-		background-color: #F8F8F8 ;
-	}
-	
-	.ribbon-blue{
-/* 		background-color: #336799; */
-		margin:auto;
-		margin-bottom: 20px;
-		color:black;
-		font-size: 250%;
-	/* 	padding-top: 5px; */
-		padding-bottom:5px;
-		width: 220px;
-		
-	}
-	
-	#about .double-border{
-		width:220px;
-		margin:auto;
-	}
+		#home form label {		color:black;	}
+		#home .subscribe_tag{		font-size:150%;	}	
+/*About Us*/
 	
 	#about .vision{
  		font-size: 150%;
@@ -454,68 +400,40 @@ About Us
 		margin-right: 20px;
 		margin-left:20px;
 	}
-	/* 
-	#about div img{
-		max-width:160px;
-		
-	} */
-	
 	#about small{
 		padding-right:30px;
-	}
-	
-
-/*===================================
-Life Series
-===================================*/
-		#games-navbar div{		padding:5px;	}
-			#lifeseries .ribbon-orange{
+	}
+/*Life Series*/	#games-navbar div{		padding:5px;	}		#lifeseries .ribbon-orange{
 		margin-right:30px;
 		margin-left:30px;
 		/* width:350px; */
 	}
-	
 	#lifeseries .title .oleo{ 
 		font-size:150%;
 	}
-	
 	#lifeseries .double-border{
 		/* width:350px; */
 		margin-left:30px;
 	}
-	
 	#lifeseries  .product-description{ 
 		margin-right:30px;
 		margin-left:30px;
 	}
-	
 	#lifeseries p{
 		word-wrap:break-word;
 	}
-	
 	#lifeseries .icon{
 		padding-left:2px;
 		padding-right:2px;
 	}
-	
 	#lifeseries .platform{
 			padding-top: 20px;
 			
 		}
-	
 	#lifeseries .platform div{
 			margin:auto;
 			
 		}
-	
-/* 	#lifeseries .platform img{
-		max-width: 48px;
-		margin:auto;
-		display: inline;
-		padding-right:3px;
-		padding-left:3px;
-	} */
-	
 	#lifeseries .screenshots-dashed{
 		border-top: 2px black dashed;
 		border-bottom:2px black dashed;
@@ -525,19 +443,15 @@ Life Series
 		margin-right:15px;
 		margin-left:15px;
 	}
-	
 	#lifeseries .screenshots img{
 		padding-right:15px;
 		padding-left:15px;
 	}
 	.presskit{		max-width:50px;	}
-	/*===================================
-	Doctor Life
-	===================================*/
+	/*	Doctor Life*/ 
 		.special-container{
 			padding:40px 0px 0px 0px;
 		}
-		
 		.container-doctorlife{
 			
 			background-image:	url(images/doctorlife/DoctorLifeBG__01.jpg), 
@@ -561,17 +475,14 @@ Life Series
 			background-repeat: no-repeat;
 			margin-top: 0px;
 		}
-		
 		.youtube-wigu{
 
 			width:100%;
 
 		}
-
 		.youtube-wigu iframe{
 			width:100%;
 		}
-
 		.galindo-doctorlife{
 			font-size:2em;
 			color:white;
@@ -579,39 +490,11 @@ Life Series
 			padding-right:15px;
 
 		}
-		
-		
-		
 		#mc_embed_signup{
 			padding-left:20%;
 
 			
-		}
-
-/* 		#mc_embed_signup label{
-			padding-top: 5%;
-			color:white;
-			font-size: 1.2em;
-			
-		}
-
-		#mce-EMAIL{
-			
-			width:50%;
-			border-radius: 5px;
-			height: 56px; 
-		}*/
-
-/* 		#mc-embedded-subscribe{
-			background-image:url(images/doctorlife/button_submit.png);
-			width:162px;
-			height:56px;
-			cursor:pointer;
-			border:0;
-			background-color:transparent;
-			vertical-align:bottom;
-		} */
-		
+		}		
 		.iphone-label{
 			color:white;
 			/* -webkit-text-stroke: 2px black; */
@@ -620,12 +503,10 @@ Life Series
 			-moz-text-shadow: 0px -2px 0 black, 0px 2px 0 black, 2px 0px 0 black, -2px 0px 0 black;
 			text-shadow: 0px -2px 0 black, 0px 2px 0 black, 2px 0px 0 black, -2px 0px 0 black;
 		}
-		
 		.comingsoon{
 			color:white;
 		}
 
-	
 /*===================================
 Community
 ===================================*/
@@ -663,7 +544,6 @@ Community
 	#read-more{
 		cursor:pointer;
 	}
-	
 	#read-more>p{
 		color:white;
 	}
@@ -684,89 +564,55 @@ Community
 /*===================================
 Contact
 ===================================*/
-	
-	
 	#contact .mail-to{
 		padding-right:20px;
 		padding-left:20px;
 	}
-	
 	#contact .mail-to img{
 		max-width:180px; 
 	}
-	
 	#contact .ribbon-orange{
 		background-color:#fe9843;
 		border-bottom:#c67836;
 		
 	}
-	
 	#contact .ribbon-blue{
 		width: 100%;
 	}
-	
 	#contact .dotted-line{
 		background-image: url("images/bg_dottiles.png");
 		background-repeat: repeat-x;
 		height: 16px;
 	}
-	
 	#contact .mail-van{
 		position:relative;
 		top:-33px;
-	}
-	
+	}
+	
 	#contact .contact-wigu{
 		padding-bottom:30px;
 	}
-	
-/* 	#contact .contact-address{
-		position:relative;
-		top: 100px;
-		margin:auto;
-		z-index:2;
-	} */
-	
 	#contact .contact-address img{
 		width: 40px;
 		height:30px;
 	}
-
-/* 	#contact .address-break{
-		position:relative;
-		top: 150px; 
-		margin:auto;
-		z-index:2;
-	}
-	 */
 	#contact .address-break img{
 		width: 40px;
 		height:30px;
 	}
-
-/* 	#contact .image-address{
-		position:relative;
-		z-index: 1;
-		top: -142px;
-	} */
-	
 	.map-div{
 		height:400px;
 	}
-	
 	#contact #map-canvas{
 		width:100%;
 		height:100%;
 	}
-	
 	#contact .box {
 
 		margin: 0;
 		background-color: #f8f8f8;
 		height: 100%;
-	}
-	
-
+	}
 /*===================================
 Mobile Only <767px
 ===================================*/
@@ -808,7 +654,8 @@ Mobile Only <767px
 		===================================*/
 			.mobile-padding{
 				padding-bottom:30px;
-			}
+			}
+			
 		
 		/*===================================
 		About Us
@@ -900,8 +747,7 @@ Mobile Only <767px
 			}
 		
 		
-	}
-		
+	}
 /*===================================
 Tablets and PCs >768px
 ===================================*/		
@@ -1051,14 +897,16 @@ Tablets and PCs >768px
 		
 		#contact .contact-address{
 			padding-top:15px;
+		}
+		
+		#grasscanvas{
+			width:730px;
 		}
 	}
-	
-		
+	
 /*===================================
 Large screens >991px
 ===================================*/			
-		
 @media (min-width: 992px) {
 	.container-doctorlife{
 		background-attachment: scroll;
@@ -1110,14 +958,17 @@ Large screens >991px
 	
 	.operator{
 		padding-top: 150px;
-	}
-}
+	}
+	
+	#grasscanvas{
+
+		width:950px;
+	}
 	
-		
+}
 /*===================================
 X-Large screens >1200px
 ===================================*/			
-		
 @media (min-width: 1200px) {
 	.carousel-indicators-wigu {
 		top: -1%;
@@ -1176,5 +1027,3 @@ X-Large screens >1200px
 	}
 	
 }
-		
-		

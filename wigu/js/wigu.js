@@ -1,28 +1,18 @@
 jQuery('html').removeClass('no-js').addClass('js');
 
-
-$(window).ready(updateHeight);
-$(window).resize(updateHeight);
-function updateHeight()
-{
+$(window).ready(openList);
+$(window).ready(updateHeight);$(window).ready(updateHeight2);
+$(window).resize(updateHeight);$(window).resize(updateHeight2);$(window).resize(openList);
+$(window).resize(updateVideo);$(window).resize(mapHeight);$(window).load(updateVideo);$(window).load(mapHeight);function updateHeight() {
     var divdl = $('.container-doctorlife');
     var width = divdl.width();
     divdl.css('height', width/940*3555);			var divcl = $('.container-caninelife');    var width = divcl.width();    divcl.css('height', width/940*3152);
 }
-
-$(window).ready(updateHeight2);
-$(window).resize(updateHeight2);
-
-function updateHeight2()
-{
+function updateHeight2() {
     var div2 = $('.carousel');
     
     div2.css('top', ($(window).width()/1024*39)+40);
 }
-
-$(window).ready(openList);
-$(window).resize(openList);
-
 function openList(){
 	if($(window).width() < 768) {
 		$(".dropdown").addClass("open");
@@ -30,9 +20,6 @@ function openList(){
 		$(".dropdown").removeClass("open");
 	}
 }
-
-
-
 $(window).load(function() {
 
     /* ==============================================
@@ -51,10 +38,7 @@ $(window).load(function() {
 
     hidePreloader();
 
-});
-
-
-
+});// one page website transition
 $(document).ready(function() {
 	
 	
@@ -342,14 +326,6 @@ $(document).ready(function() {
 
 	
 });
-
-// $(document).ready(updateVideo);
-// $(window).ready(updateVideo);
-$(window).resize(updateVideo);
-$(window).load(updateVideo);
-
-
-
 function updateVideo(){
 		var div3 = $(".youtube-wigu");
 		var div4 = $("#youtube-video");				var trailer = $("#doctorlife_trailer");		
@@ -374,8 +350,6 @@ function updateVideo(){
 		
 
 }
-
-
 	$(window).resize(function() {
         if ($(window).width() < 768) {
 			
@@ -385,14 +359,6 @@ function updateVideo(){
 		}
         //end small-screen
     }) .resize(); // trigger resize event
-
-
-
-$(window).resize(mapHeight);
-$(window).load(mapHeight);
-
-
-
 function mapHeight(){
 		var div5 = $(".map-div");
 		var width3 = $(".map-div").width();
@@ -407,18 +373,15 @@ function mapHeight(){
 		
 
 }
-
-
-	$(window).resize(function() {
-        if ($(window).width() < 768) {
-			
-            $('.encyclo').css("padding-top",((1.5433*$(window).width())-475));
-        } else{
-			$('.encyclo').css("padding-top","");
-		}
-        //end small-screen
-    }) .resize(); // trigger resize event
-	
+$(window).resize(function() {
+	if ($(window).width() < 768) {
+		
+		$('.encyclo').css("padding-top",((1.5433*$(window).width())-475));
+	} else{
+		$('.encyclo').css("padding-top","");
+	}
+	//end small-screen
+}) .resize(); // trigger resize event
 $(document).ready(function() {
 		$(".fancybox").fancybox();
 	});
