@@ -1,15 +1,3 @@
-$("#signup-mainpage").hover(function(){
-	$("#signup-mainpage").css("background", "url(css/images/button_signup_in.png) no-repeat")
-}, function(){
-	$("#signup-mainpage").css("background", "url(css/images/button_signup.png) no-repeat")
-});
-
-$("#submit-mainpage").hover(function(){
-	$("#submit-mainpage").css("background", "url(css/images/button_submit_in.png) no-repeat")
-}, function(){
-	$("#submit-mainpage").css("background", "url(css/images/button_submit.png) no-repeat")
-});
-
 
 
 /* ================
@@ -40,7 +28,7 @@ var renderer = new PIXI.autoDetectRenderer(canvasWidth,canvasHeight, null, true,
 renderer.view.style.display = "block";
 
 // add render view to DOM
-document.getElementById("bottomcanvas").appendChild(renderer.view);
+document.getElementById("fence").appendChild(renderer.view);
 
 var postition = 0;
 var spineBoy;
@@ -116,10 +104,4 @@ function animate() {
 }
 
 
-$('#form-mainpagecanvas').on('shown.bs.collapse', function (e) {
-	var distTop = $('#signup-mainpage').offset().top;
-	$("section#home").animate({
-	  scrollTop: distTop-50
-	},"500");
-});
 

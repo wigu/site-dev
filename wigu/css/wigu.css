@@ -13,7 +13,7 @@ swatch colors
 ===================================*/
 
 
-/*Resets and overrides*/
+/*----Resets and overrides----*/
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 	margin:0;
@@ -84,15 +84,6 @@ img{
 
 }
 
-/* .container{
-
-	padding:40px 10px 0px 10px;
-
-	border:0;
-
-
-} */
-
 .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12{
 
 	padding-right:0px;
@@ -101,7 +92,7 @@ img{
 
 }
 
-/*Fonts*/
+/*----Fonts----*/
 
 a {
 	color: black;
@@ -111,40 +102,14 @@ a {
  	font-family: 'Abril Fatface', cursive;
 }
 
-.font-b {
+p, label, .dropdown-menu, .footer, .popover, #mce-responses, .font-b {
  	font-family: 'Josefin Sans', sans-serif;
 }
 
-/* .font-c {
- 	font-family: 'Josefin Sans', sans-serif;
+.smallFont{
+	font-size: 0.7em;
 }
 
-@font-face {
-
-  font-family: "AFM";
-
-  src: url(fonts/alphafridgemagnets.ttf) format("truetype");
-
-}
-
-.galindo{
-
-	font-family: 'Galindo', cursive;
-
-}
-
-.AFM{
-
-	font-family: 'AFM',cursive;
-
-}
-
-.istok{
-
-	font-family: 'Josefin Sans', sans-serif;
-
-}
- */
 
 .isHeader{
 
@@ -156,7 +121,11 @@ a {
  
  .isExtraLarge{
 			font-size: 250%;
- }/*Links and type*/
+ }
+ .alert-success {
+	font-size:1.5em;
+}
+ /*----Links and type----*/
 
 ::selection {
 
@@ -171,16 +140,20 @@ background:#fe9843;
 }
 
 
-/*Callout Boxes*/
+/*----Callout Boxes----*/
 
 
-/*Layout*/
+/*----Layout----*/
+.miniColumn{
+	padding-left:5px;
 
+	padding-right:5px;
+}
 .column{
 
-	padding-left:20px;
+	padding-left:25px;
 
-	padding-right:20px;
+	padding-right:25px;
 
 }
 .rowSpacing{
@@ -198,10 +171,10 @@ background:#fe9843;
 	box-shadow: 5px 5px 5px #888888;
 }
 
-/*Form Elements*/
+/*----Form Elements----*/
 
 
-/*Misc*/
+/*----Misc----*/
 
 .wigu-red{
 	height:5px;
@@ -222,8 +195,14 @@ background:#fe9843;
 	height:5px;
 	background-color: #0096ff;
 }
-
-/*Title boxes styling*/
+#email-list img{
+
+	max-width:180px; 
+
+}
+
+
+/*----Title boxes styling----*/
 .double-border{
 	border-bottom: 3px double black;
 	border-width:medium; 
@@ -236,7 +215,36 @@ background:#fe9843;
 	margin-top:-10px;
 	margin-left: -12px;
 }
-/*Footer*/
+.dashed-line{
+
+	border-top: 2px black dashed;
+
+	border-bottom:2px black dashed;
+
+	font-size: 150%;
+
+	margin-top:30px;
+
+	margin-bottom:30px;
+
+	margin-right:15px;
+
+	margin-left:15px;
+
+}
+
+.dotted-line{
+
+	background-image: url("images/bg_dottiles.png");
+
+	background-repeat: repeat-x;
+
+	height: 16px;
+
+}
+
+
+/*----Footer----*/
 .mobile-footer{
 	font-size: 60%;
 }
@@ -246,7 +254,7 @@ background:#fe9843;
 .footer-nav ul{
 	bottom:100%;
 }
-/*Scrollbar*/
+/*----Scrollbar----*/
 ::-webkit-scrollbar {
 	width: 8px;
 }
@@ -258,7 +266,7 @@ background:#fe9843;
 	border-radius: 10px;
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
 }
-/*Preloader*/
+/*----Preloader----*/
 #preloader{
 	position:absolute;
 	top:0;
@@ -280,7 +288,7 @@ background:#fe9843;
 	margin: -100px 0 0 -100px;
 	
 }
-/*Navigation Bar*/
+/*----Navigation Bar---*/
 .navbar-wigu{
 	background-color:#fe9843;
 	height: 40px;
@@ -293,7 +301,7 @@ background:#fe9843;
 	width:100%;
 	border-color: transparent;
 	border-bottom: 1px solid #c67836;
-	
+	font-weight: bold;
 }
 .navbar-dashed{
 	border-top: 2px dashed #466cb0;
@@ -304,7 +312,7 @@ background:#fe9843;
 .navbar-brand{
 	padding: 3px 15px;
 }
-.nav .facebook-twitter{
+.facebook-twitter{
 	padding-right: 7px;
 	padding-top: 4px;
 	padding-left:7px;
@@ -318,712 +326,206 @@ background:#fe9843;
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus{
 	background-color:transparent;
 }
-/*Home Page*/	#mainpagecanvas{
-		background: -webkit-linear-gradient(#C5FBFF, #FBFFE8); /* For Safari 5.1 to 6.0 */
-		background: -o-linear-gradient(#C5FBFF, #FBFFE8); /* For Opera 11.1 to 12.0 */
-		background: -moz-linear-gradient(#C5FBFF, #FBFFE8); /* For Firefox 3.6 to 15 */
-		background: linear-gradient(#C5FBFF, #FBFFE8); /* Standard syntax */	}
-	
-	#mainpagecanvas img{
-		height:400px;
-		width:auto;
-		position: absolute;
-	}
-	
-	#img_left{
-		margin-left: -200px;
-		z-index: -1;
-	}	
-	#img_right{
-		margin-left: 1090px;
-	}
-		#mainpagecanvas label{		font-weight:bold;	}
-	
-	#mainpagecanvas .listitems label{
-		font-weight:normal;
-	}	
-	
-	#form-mainpagecanvas  li{
-		list-style: none;
-		font-weight:normal;
-		line-height:normal;
-	}
-	 #mainpagecanvas .checkbox p{		line-height:1;		font-size: 60%;		vertical-align: text-bottom;	}		#signup-mainpage{		background: url(images/button_signup.png) no-repeat;		height:82px;		width:167px;	}
-	
-	#signup-mainpage:hover,#signup-mainpage:focus{
-		outline:none;
-	}
-	
-	.form-desc {
-		font-weight:400;
-	}		#submit-mainpage{		background: url(images/button_submit.png) no-repeat;		height:82px;		width:167px;	}
-	
-	#bottomcanvas {
-		margin-left:-60px;
-		margin-right:-60px;
-		background:url("images/fence.png") repeat-x;
-	}
-	
-	#grasscanvas{
-		background:url("images/grass_a.png"), url("images/grass_b.png"),url("images/grass_c.png"),url("images/grass_d.png");
-		margin-left:-60px;
-		margin-right:-60px;
-		height:85px;
-		background-color:green;
-		margin-top:-50px;
-	}
-	
-/* 	#minigrass{
-		
-		margin-left:-60px;
-		margin-right:-60px;
-		width:1150px;
-		z-index:5;
-		height:85px;
-		margin-top: -85px;
-	} */
-	
-	#form-mainpagecanvas input {
-		line-height: normal;
-	}	
-	.name input{
-		width:50%;
-	}
-		#home form label {		color:black;	}
-		#home .subscribe_tag{		font-size:150%;	}	
-/*About Us*/
-	
-	#about .vision{
- 		font-size: 150%;
-/* 		margin-bottom:40px; */
-		word-wrap:break-word;
-		margin-right: 20px;
-		margin-left:20px;
-	}
-	#about small{
-		padding-right:30px;
-	}
-/*Life Series*/	#games-navbar div{		padding:5px;	}		#lifeseries .ribbon-orange{
-		margin-right:30px;
-		margin-left:30px;
-		/* width:350px; */
-	}
-	#lifeseries .title .oleo{ 
-		font-size:150%;
-	}
-	#lifeseries .double-border{
-		/* width:350px; */
-		margin-left:30px;
-	}
-	#lifeseries  .product-description{ 
-		margin-right:30px;
-		margin-left:30px;
-	}
-	#lifeseries p{
-		word-wrap:break-word;
-	}
-	#lifeseries .icon{
-		padding-left:2px;
-		padding-right:2px;
-	}
-	#lifeseries .platform{
-			padding-top: 20px;
-			
-		}
-	#lifeseries .platform div{
-			margin:auto;
-			
-		}
-	#lifeseries .screenshots-dashed{
-		border-top: 2px black dashed;
-		border-bottom:2px black dashed;
-		font-size: 150%;
-		margin-top:30px;
-		margin-bottom:30px;
-		margin-right:15px;
-		margin-left:15px;
-	}
-	#lifeseries .screenshots img{
-		padding-right:15px;
-		padding-left:15px;
-	}
-	.presskit{		max-width:50px;	}
-	/*	Doctor Life*/ 
-		.special-container{
-			padding:40px 0px 0px 0px;
-		}
-		.container-doctorlife{
-			
-			background-image:	url(images/doctorlife/DoctorLifeBG__01.jpg), 
-								url(images/doctorlife/DoctorLifeBG__02.jpg),
-								url(images/doctorlife/DoctorLifeBG__03.jpg),
-								url(images/doctorlife/DoctorLifeBG__04.jpg),
-								url(images/doctorlife/DoctorLifeBG__05.jpg),
-								url(images/doctorlife/DoctorLifeBG__06.jpg),
-								url(images/doctorlife/DoctorLifeBG__07.jpg),
-								url(images/doctorlife/DoctorLifeBG__08.jpg);
-			background-attachment: scroll;
-			background-position: 	center 0.02%, 
-									50% 16.7649%, 
-									50% 32.1101%, 
-									50% 45.7226%, 
-									50% 59.4629%, 
-									50% 72.1218%, 
-									50% 85.2323%, 
-									50% bottom;
-			background-size:contain;
-			background-repeat: no-repeat;
-			margin-top: 0px;
-		}
-		.youtube-wigu{
-
-			width:100%;
-
-		}
-		.youtube-wigu iframe{
-			width:100%;
-		}
-		.galindo-doctorlife{
-			font-size:2em;
-			color:white;
-			padding-left:15px;
-			padding-right:15px;
-
-		}
-		#mc_embed_signup{
-			padding-left:20%;
-
-			
-		}		
-		.iphone-label{
-			color:white;
-			/* -webkit-text-stroke: 2px black; */
-			font-size:150%;
-			-webkit-text-shadow: 0px -2px 0 black, 0px 2px 0 black, 2px 0px 0 black, -2px 0px 0 black;
-			-moz-text-shadow: 0px -2px 0 black, 0px 2px 0 black, 2px 0px 0 black, -2px 0px 0 black;
-			text-shadow: 0px -2px 0 black, 0px 2px 0 black, 2px 0px 0 black, -2px 0px 0 black;
-		}
-		.comingsoon{
-			color:white;
-		}
-
-/*===================================
-Community
-===================================*/
-	#community .date{
-		background-color:orange;
-		font-size:150%;
-		width: 320px;
-		margin-bottom: 10px;
-		padding-left: 30px;
-		padding-right: 30px;
-		color:white;
-	}
-	.community-nav{
-		border:none;
-		height: 80px;
-		font-family: 'Abril Fatface', cursive;
-		font-size: 120%;
-	}
-	
-	.community-nav>li.active>a, .nav>li>a:hover, .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
-		background-color:#FFDBBC;
-		border-color:transparent;
-	}
-	
-	
-	.community-nav>li.active>a, .community-nav>li.active>a:hover, .community-nav>li.active>a:focus{
-		border:none;
-		
-	}
-	
-	.community-nav img{
-		height:20px;
-		width:20px;
-	}
-	#read-more{
-		cursor:pointer;
-	}
-	#read-more>p{
-		color:white;
-	}
-	
-	.articlereview{
-		border: dashed;
-		border-width:2px;
-		padding: 10px;
-	}
-	
-	.articlereview div{
-		padding: 5px;
-	}
-	
-	.articlereview div img{
-		vertical-align:middle;
-	}
+/*Home Page*/#mainpagecanvas{
+	background: -webkit-linear-gradient(#C5FBFF, #FBFFE8); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#C5FBFF, #FBFFE8); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#C5FBFF, #FBFFE8); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#C5FBFF, #FBFFE8); /* Standard syntax */}
+
+#mainpagecanvas img{
+	height:400px;
+	width:auto;
+	position: absolute;
+}
+
+#img_left{
+	margin-left: -200px;
+	z-index: -1;
+}
+#img_right{
+	margin-left: 1080px;
+}
+#mainpagecanvas label{	font-weight:bold;}
+
+#mainpagecanvas .listitems label{
+	font-weight:normal;
+}	
+
+#form-mainpagecanvas  li{
+	list-style: none;
+	font-weight:normal;
+	line-height:normal;
+}
+ #mainpagecanvas .checkbox p{	line-height:1;	font-size: 60%;	vertical-align: text-bottom;}#signup-mainpage{	background: url(images/button_signup.png) no-repeat;	height:82px;	width:167px;}
+
+#signup-mainpage:hover,#signup-mainpage:focus{
+	outline:none;
+}
+
+.form-desc {
+	font-weight:400;
+}#submit-mainpage{	background: url(images/button_submit.png) no-repeat;	height:82px;	width:167px;}
+.name input{
+	width:50%;
+}
+
+#home form label {
+	color:black;
+}
+
+#home .subscribe_tag{
+	font-size:150%;
+}
+
+
+#bottomcanvas {
+	margin-left:-60px;
+	margin-right:-60px;
+}
+
+#fence{
+	background:url("images/fence.png") repeat-x;
+	height:100px;
+}
+
+#grass-canvas{
+	background:url("images/grass_g.png"),url("images/grass_f.png"),url("images/grass_e.png");
+	height:85px;
+	background-color:green;
+
+}
+
+#background-deco{
+	background:url("images/flowers.png") repeat-x;
+	z-index:5;
+	height:85px;
+	margin-top: -135px;
+}
+
+#doghouse-deco {
+	background:url("images/doghouse.png") no-repeat right;
+	height:204px;
+	margin-top:-210px;
+}
+
+#form-mainpagecanvas input {
+	line-height: normal;
+}
+
+
 /*===================================
 Contact
 ===================================*/
-	#contact .mail-to{
-		padding-right:20px;
-		padding-left:20px;
-	}
-	#contact .mail-to img{
-		max-width:180px; 
-	}
-	#contact .ribbon-orange{
-		background-color:#fe9843;
-		border-bottom:#c67836;
-		
-	}
-	#contact .ribbon-blue{
-		width: 100%;
-	}
-	#contact .dotted-line{
-		background-image: url("images/bg_dottiles.png");
-		background-repeat: repeat-x;
-		height: 16px;
-	}
-	#contact .mail-van{
-		position:relative;
-		top:-33px;
-	}
-	
-	#contact .contact-wigu{
-		padding-bottom:30px;
-	}
-	#contact .contact-address img{
-		width: 40px;
-		height:30px;
-	}
-	#contact .address-break img{
-		width: 40px;
-		height:30px;
-	}
-	.map-div{
-		height:400px;
-	}
-	#contact #map-canvas{
-		width:100%;
-		height:100%;
-	}
-	#contact .box {
-
-		margin: 0;
-		background-color: #f8f8f8;
-		height: 100%;
-	}
+
+
+#contact .mail-van{
+	position:relative;
+	top:-33px;
+}
+
+#contact-address img, #address-break img{
+	width: 40px;
+	height:30px;
+}
+
+#contact-details{
+	margin-top:80px;
+}
+#map-div{
+	height:400px;
+}
+#map-canvas{
+	width:100%;
+	height:100%;
+}
+
 /*===================================
 Mobile Only <767px
 ===================================*/
-	@media(max-width: 767px){
-		
-		section{
-			width:100%;
-			height:100%;
-			position:relative;
-			z-index:50;
-			overflow:visible;
-			float:left;
-		}
-		
-		.pc-only{
-			display:none;
-		}
-		
-		/*===================================
-		Navigation Bar
-		===================================*/
-			.navbar-collapse{
-				background-color:white;
-			}
-			
-			.navbar-collapse-wigu {
-				z-index: 100;
-				position:relative;
-				border-top: transparent;
-				margin:auto;
-			}
-			
-			.navbar-toggle{
-				margin-top:1px;
-			}
-		
-		/*===================================
-		Home
-		===================================*/
-			.mobile-padding{
-				padding-bottom:30px;
-			}
-			
-		
-		/*===================================
-		About Us
-		===================================*/
-		
-			#about .ribbon-orange{
-				width: 220px;
-				margin:auto;
-			}
-			
-		/*===================================
-		Life Series
-		===================================*/
-			#lifeseries .title .oleo{
-				font-size:80%;
-			}
-			
-			#lifeseries .double-border{
-				width:inherit;
-				margin-right:30px;
-			}
-			
-			#lifeseries .title{
-				margin-top: 15px;
-			}
-			
-			
-		/*===================================
-		Doctor Life
-		===================================*/
-			.container-doctorlife{
-				background-attachment: scroll;
-				background-size:contain;
-				background-repeat: no-repeat;
-				height:2838px;
-				overflow:hidden;
-			}
-			
-			.galindo-doctorlife{
-				padding-top:20%;
-				position: relative;
-				padding-bottom:0%;
-				font-size:80%;
-				
-			}
-			
-			form{
-				padding-bottom:5%;
-			}
-			/* 
-			#mce-EMAIL{
-				height:30px;
-			} */
-			
-/* 			#mc-embedded-subscribe{
-				width:81px;
-				height:28px;
-				background-size:cover;
-			} */
-			
-			.iphone{
-				padding-top: 5%;
-			}
-			
-			
-			.iphone-label{
-				padding-top:2%;
-				font-size: 100%;
-				/* -webkit-text-stroke: 1px black; */
-				-webkit-text-shadow: 0px -1px 0 black, 0px 1px 0 black, 1px 0px 0 black, -1px 0px 0 black;
-				-moz-text-shadow: 0px -1px 0 black, 0px 1px 0 black, 1px 0px 0 black, -1px 0px 0 black;
-				text-shadow: 0px -1px 0 black, 0px 1px 0 black, 1px 0px 0 black, -1px 0px 0 black;
-			}
-			
-			.footer-doctorlife{
-				margin-top:5%;
-			}
-			
-			.coming-soon{
-				font-size: 150%;
-			}
-			
-		/*===================================
-		Community
-		===================================*/
-			#community .date{
-				font-size: 100%;
-				width:inherit;
-			}
-		
-		
-	}
+
+@media(max-width: 767px){
+/*----Resets and overrides----*/
+section{
+	width:100%;
+	height:100%;
+	position:relative;
+	z-index:50;
+	overflow:visible;
+	float:left;
+}
+.pc-only{
+	display:none;
+}
+/*----Navigation Bar----*/
+.navbar-collapse{
+	background-color:white;
+}
+.navbar-collapse-wigu {
+	z-index: 100;
+	position:relative;
+	border-top: transparent;
+	margin:auto;
+}
+.navbar-toggle{
+	margin-top:1px;
+}
+
+/*----Layout----*/
+.mobile-padding{
+	padding-bottom:30px;
+}
+	
+
+}
 /*===================================
 Tablets and PCs >768px
 ===================================*/		
-	@media (min-width: 768px){
-		.mobile-only{
-			display:none;
-		}
-		
-		.pc-only img{
-			width: auto;
-		}
-		
-		.navbar-nav>li>a{
-			padding-top: 5px;
-			padding-bottom:0px;
-		}
-		
-		.navbar-nav>li>a>img{
-			margin-top: -6px;
-			padding-bottom:0px;
-		}
-		
-		.nav>li{
-			height:30px;
-			margin-top: 4px;
-		}
-		
-		.nav-divide{
-			border-right: 1px solid #466cb0;
-		}
-		
-		.dropdown:hover .dropdown-menu {
-			display: block;
-		 }
-		
-		.footer{
-			font-size:70%;
-		}
-		
-		.footer .nav>li>a{
-			padding: 0px;
-		}
-		
-		.footer-nav .dropdown-menu{
-			font-size: 100%;
-		}
-		
-		.fb-like{
-			padding-left: 20px;
-		}
-
-		.fb-follow{
-			padding-left: 40px;
-		}
-		
-		.container-doctorlife{
-			background-attachment: scroll;
-			background-size:contain;
-			background-repeat: no-repeat;
-			height:2838px;
-		}
-		
-		.carousel{
-			position:absolute;
-			width:35.45%;
-			top:5px;
-			left:11.426%;
-		}
-		
-		.carousel-indicators-wigu {
-			top: -1%;
-			left:18%;
-			width:60%;
-			height:80px;
-		}
-
-		.carousel-indicators-wigu  li{
-			background-image: url(images/ribbon_number_short.png);
-			width:18px;
-			height:26px;
-			border: none;
-			border-radius:0px;	
-			vertical-align:top;
-			text-indent:0px;
-			font-family: 'Abril Fatface', cursive;
-		}
-
-		.carousel-indicators-wigu  .active{
-			background-image: url(images/ribbon_number_long.png);
-			width: 18px;
-			height: 52px;
-			background-color:rgba(255, 255, 255, 0);
-			font-size:1.5em;
-			padding-top:6px;
-			color:white;
-
-		}
-		
-		.carousel-control-wigu{
-			width:100%;
-		}
-		
-		.youtube-wigu{
-			padding-top:459.26px;
-			padding-left:130.28px;
-		}
-		
-		#doctorlife_trailer, #youtube-video{
-			width:512px;
-			height: 313px;
-		}
-		
-		#lifeseries .platform{
-			padding-top: 60px;
-		}
-		
-		.galindo-doctorlife{
-			padding-top:20%;
-			position: relative;
-			padding-bottom:0%;
-			font-size:150%;
-		}
-		
-		form{
-			padding-bottom:10px;
-		}
-		
-		.iphone{
-			padding-top: 20px;
-		}
-		
-		.iphone-label{
-			padding-top:10px;
-		}
-		
-		.encyclo{
-			padding-top:320px;
-		}
-		
-		.footer-doctorlife{
-			margin-top:70px;
-		}
-		
-		.comingsoon{
-			font-size:250%;
-		}
-		
-		#contact .contact-address{
-			padding-top:15px;
-		}
-		
-		#grasscanvas{
-			width:730px;
-		}
+@media (min-width: 768px){
+	.mobile-only{
+		display:none;
 	}
-	
+	.pc-only img{
+		width: auto;
+	}
+	.navbar-nav>li>a{
+		padding-top: 5px;
+		padding-bottom:0px;
+	}
+	.navbar-nav>li>a>img{
+		margin-top: -6px;
+		padding-bottom:0px;
+	}
+	.nav>li{
+		height:30px;
+		margin-top: 4px;
+	}
+	.nav-divide{
+		border-right: 1px solid #466cb0;
+	}
+	.dropdown:hover .dropdown-menu {
+		display: block;
+	 }
+	.footer{
+		font-size:70%;
+	}
+	.footer .nav>li>a{
+		padding: 0px;
+	}
+	.footer-nav .dropdown-menu{
+		font-size: 100%;
+	}
+}
+
 /*===================================
 Large screens >991px
 ===================================*/			
 @media (min-width: 992px) {
-	.container-doctorlife{
-		background-attachment: scroll;
-		background-size:contain;
-		background-repeat: no-repeat;
-	
-	}
-	
-	.youtube-wigu{
-		padding-top:594.15px;
-		padding-left:163.51px;
-	}
-	
-	#doctorlife_trailer, #youtube-video{
-		width:661.85px;
-		height: 404px;
-	}
-	
-	.galindo-doctorlife{
-		padding-top:20%;
-		position: relative;
-		padding-bottom:5%;
-		font-size:200%;
-	}
-	
-	form{
-		padding-bottom:30px;
-	}
-	
-	.iphone{
-		padding-top: 50px;
-	}
-	
-	.iphone-label{
-		padding-top:10px;
-	}
-	
-	.encyclo{
-		padding-top:360px;
-	}
-	
-	.footer-doctorlife{
-		margin-top:160px;
-	}
-	
-	#contact .contact-address{
-		padding-top:50px;
-	}
-	
-	.operator{
-		padding-top: 150px;
-	}
-	
-	#grasscanvas{
 
-		width:950px;
-	}
-	
+
 }
 /*===================================
 X-Large screens >1200px
 ===================================*/			
 @media (min-width: 1200px) {
-	.carousel-indicators-wigu {
-		top: -1%;
-		left:11%;
-		width:60%;
-		height:80px;
-	}	
-	
-	.youtube-wigu{
-		padding-top:716.88px;
-		padding-left:193.55px;
-	}
-	
-	#doctorlife_trailer, #youtube-video{
-		width:798.57px;
-		height: 485.2px;
-	}
-	
-	.galindo-doctorlife{
-			padding-top:25%;
-			position: relative;
-			padding-bottom:5%;
-			font-size:245%;
-	}
-	
-	form{
-		padding-bottom:50px;
-	}
-	
-	.iphone{
-		padding-top: 70px;
-	}
-	
-	.iphone-label{
-		padding-top:20px;
-	}
-	
-	.encyclo{
-		padding-top:530px;
-	}
-	
-	.comingsoon{
-		padding-top:100px;
-	}
-	
-	#contact .contact-address{
-		padding-top:100px;
-	}
-	
-	.footer-doctorlife{
-		margin-top:100px;
-	}
-	
-	.operator{
-		padding-top: 100px;
-	}
-	
+
 }
