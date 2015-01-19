@@ -334,19 +334,20 @@ background:#fe9843;
 	background: -moz-linear-gradient(#C5FBFF, #FBFFE8); /* For Firefox 3.6 to 15 */
 	background: linear-gradient(#C5FBFF, #FBFFE8); /* Standard syntax */}
 
-#mainpagecanvas img{
-	height:400px;
-	width:auto;
+#img_left, #img_right, #caninelife_logo{
 	position: absolute;
+	width:auto;
+}
+
+#img_left, #img_right{
+	height:400px;
 }
 
 #img_left{
 	margin-left: -200px;
 	z-index: -1;
 }
-#img_right{
-	margin-left: 1080px;
-}
+
 #mainpagecanvas label{	font-weight:bold;}
 
 #mainpagecanvas .listitems label{
@@ -378,7 +379,6 @@ background:#fe9843;
 #home .subscribe_tag{
 	font-size:150%;
 }
-
 
 #bottomcanvas {
 	margin-left:-60px;
@@ -481,7 +481,13 @@ background:#fe9843;
 
 	#contact-details{
 		margin-top:30px;
-	}}
+	}
+	
+	#img_right, #img_left, #caninelife_logo{
+		display:none;
+
+	}
+	}
 /*----Tablets and PCs >768px----*/		
 @media (min-width: 768px){
 	.mobile-only{
@@ -517,22 +523,36 @@ background:#fe9843;
 	.footer-nav .dropdown-menu{
 		font-size: 100%;
 	}
-	#img-right{
+	#img_right{
 		margin-left:660px;
 	}
 	
-
+	#caninelife_logo{
+		margin-left: 400px;
+	}
+	
+	.tablet-padding{
+		padding-bottom:25px;
+	}
 }
 
 /*----Large screens >991px----*/			
 @media (min-width: 992px) {
-	#img-right{
+	#img_right{
 		margin-left:880px;
 	}
-
+	
+	#caninelife_logo{
+		margin-left: 600px;
+	}
 
 }
 /*----X-Large screens >1200px----*/			
-@media (min-width: 1200px) {
-
+@media (min-width: 1200px) {	#img_right{
+		margin-left: 1080px;
+	}
+
+	#caninelife_logo{
+		margin-left: 800px;
+	}
 }
