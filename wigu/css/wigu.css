@@ -92,10 +92,6 @@ img{
 
 /*----Fonts----*/
 
-a {
-	color: black;
-}
-
 .font-a {
  	font-family: 'Abril Fatface', cursive;
 }
@@ -123,6 +119,10 @@ p, label, .dropdown-menu, .footer, .popover, #mce-responses, .font-b {
  .alert-success {
 	font-size:1.5em;
 }
+ 
+ .footer .nav>li>a {
+	color:black;
+ }
  /*----Links and type----*/
 
 ::selection {

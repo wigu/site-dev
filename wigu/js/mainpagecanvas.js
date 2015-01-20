@@ -31,60 +31,60 @@ renderer.view.style.display = "block";
 document.getElementById("fence").appendChild(renderer.view);
 
 var postition = 0;
-var spineBoy;
+var dog;
 
 function onAssetsLoaded()
 {
 	// create a spine boy
-	spineBoy = new PIXI.Spine("data/dogsSpineData.json");
+	dog = new PIXI.Spine("data/dogsSpineData.json");
 
-	/* spineBoy.skeleton.flipX=true; */
+	/* dog.skeleton.flipX=true; */
 
 	// set current skin
-	spineBoy.skeleton.setSkinByName('LargeAiredaleTerrier');
+	dog.skeleton.setSkinByName('LargeAiredaleTerrier');
 	
-	spineBoy.skeleton.setSlotsToSetupPose();
+	dog.skeleton.setSlotsToSetupPose();
 	
 	// set the position
-	spineBoy.position.x =700;
-	spineBoy.position.y = 150;
+	dog.position.x =700;
+	dog.position.y = 150;
 
-	spineBoy.scale.x = spineBoy.scale.y = 0.4;
+	dog.scale.x = dog.scale.y = 0.4;
 
 	// play animation
-	spineBoy.state.setAnimationByName("idle_a", true); 
+	dog.state.setAnimationByName("idle_a", true); 
 
 	// create a spine boy
-	spineBoy2 = new PIXI.Spine("data/dogsSpineData.json");
+	dog2 = new PIXI.Spine("data/dogsSpineData.json");
 
 
 	// set current skin
-	spineBoy2.skeleton.setSkinByName('LargeAkita');
+	dog2.skeleton.setSkinByName('LargeAkita');
 	
-	spineBoy2.skeleton.setSlotsToSetupPose();
+	dog2.skeleton.setSlotsToSetupPose();
 	
 	// set the position
-	spineBoy2.position.x =300;
-	spineBoy2.position.y = 150;
+	dog2.position.x =300;
+	dog2.position.y = 150;
 	
-	spineBoy2.scale.x = spineBoy2.scale.y = 0.4;
+	dog2.scale.x = dog2.scale.y = 0.4;
 
 	// play animation
-	spineBoy2.state.setAnimationByName("playing_knot", true); 
+	dog2.state.setAnimationByName("playing_knot", true); 
 
 /* 		var animationTime = 500000;
 
 	
 	function render (delta) {
 	   var timeScale=animationTime*delta;
-	   spineBoy.state.apply(this.skeleton, timeScale, true);
-	   spineBoy.updateTransform();
-	   renderSkeleton(spineBoy);
+	   dog.state.apply(this.skeleton, timeScale, true);
+	   dog.updateTransform();
+	   renderSkeleton(dog);
 	}  */
 	
 
-	stage.addChild(spineBoy);
-	stage.addChild(spineBoy2);
+	stage.addChild(dog);
+	stage.addChild(dog2);
 	requestAnimFrame(animate);
 	
 }
@@ -92,7 +92,7 @@ function onAssetsLoaded()
 
 function animate() {
 	
-	/* spineBoy.position.x +=1; */
+	/* dog.position.x +=1; */
 
 
 

@@ -118,7 +118,7 @@ Our Games
 											<img src="css/images/plug.png" alt="plug accent"/>
 										</div>
 										<div class="text-center col-xs-12 double-border">
-											<a href="ourgames.html"><h2 class="font-a">Doctor Life: Be a Doctor!</h2></a>
+											<h2 class="font-a">Doctor Life: Be a Doctor!</h2>
 										</div>
 									</div>
 									
@@ -208,7 +208,7 @@ Our Games
 											<img src="css/images/plug.png" alt="plug accent"/>
 										</div>
 										<div class="text-center col-xs-12 double-border">
-											<a href="ourgames.html"><h2 class="font-a">Doctor Life for Kids!</h2></a>
+											<h2 class="font-a">Doctor Life for Kids!</h2>
 										</div>
 									</div>
 									
@@ -290,7 +290,7 @@ Our Games
 											<img src="css/images/plug.png" alt="plug accent"/>
 										</div>
 										<div class="text-center col-xs-12 double-border">
-											<a href="ourgames.html"><h2 class="font-a">Canine Life: Woof Woof!</h2></a>
+											<h2 class="font-a">Canine Life: Woof Woof!</h2>
 										</div>
 									</div>
 									
@@ -376,7 +376,7 @@ Our Games
 											<img src="css/images/plug.png" alt="plug accent"/>
 										</div>
 										<div class="text-center col-xs-12 double-border">
-											<a href="ourgames.html"><h2 class="font-a">Doctor Life Free!</h2></a>
+											<h2 class="font-a">Doctor Life Free!</h2>
 										</div>
 									</div>
 									
@@ -458,7 +458,7 @@ Our Games
 											<img src="css/images/plug.png" alt="plug accent"/>
 										</div>
 										<div class="text-center col-xs-12 double-border">
-											<a href="ourgames.html"><h2 class="font-a">Chef Life: Delicious!</h2></a>
+											<h2 class="font-a">Chef Life: Delicious!</h2>
 										</div>
 									</div>
 									
