@@ -9,7 +9,7 @@
  	<meta name="keywords" content="wigugames, wigu, game, games, mobile, educational, tween, teen, tweens, teens, kids, children, parents, ios, profession, explore, grow up, young, fun, top, cool, doctor, life, simulation, role-play, roleplay, rpg, simulations, simulator, diagnose, treat, build, doctor life">
 	<meta name="description" content="Developing games for the curious.">
 	<meta name="author" content="WIGU Games">
-
+ 
 
 <!--========================================
 Stylesheets
@@ -25,18 +25,19 @@ Stylesheets
 	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script> <!-- Google Maps -->
 	<link rel="shortcut icon" href="favicon.ico" type="image/ico"/>
 	
-<!-- 	<script>
+ 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-	  ga('create', 'UA-42385945-1', 'wigugames.com');
+	  ga('create', 'UA-42385945-1', 'auto');
 	  ga('require', 'displayfeatures');
 	  ga('send', 'pageview');
 
-	</script> -->
-	<script src="bin/pixi.dev.js"></script>
+	</script> 
+	
+
 	
 </head>
   
@@ -45,14 +46,14 @@ Stylesheets
 
 
 
-<!-- 		<div id="fb-root"></div>
-		<script>(function(d, s, id) {
+ 	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
 		  var js, fjs = d.getElementsByTagName(s)[0];
 		  if (d.getElementById(id)) return;
 		  js = d.createElement(s); js.id = id;
 		  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=199206370262577";
 		  fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));</script> -->
+	}(document, 'script', 'facebook-jssdk'));</script> 
 
 <!-- ==============================================
 Preloader
@@ -72,10 +73,8 @@ Home Page
 =========================================-->
 	<section id="home" class="section" >
 		<h1>
-			<a href = "http://bit.ly/1iuImwr" target= "_blank">
-				<img class="img-responsive" src="css/images/header_01.png" alt="WIGU header"/>
-				<p>WIGU's Home Page!</p>
-			</a>
+			<img class="img-responsive" src="css/images/header_01.png" alt="WIGU header"/>
+			<p>WIGU's Home Page!</p>
 		</h1>
 		
 		
@@ -210,7 +209,7 @@ Home Page
 							</div>
 							<h2 class="col-sm-12 text-center font-a double-border"><a href="aboutus.php" class="isHeader">Who Are We?</a></h2>
 							<div class="rowSpacing col-sm-12 col-xs-5 miniColumn"><a href="aboutus.php"><img class="img-responsive" src="css/images/homethumb2.jpg" alt="WIGU thumbnail 1"></a></div>
-							<div class="col-sm-12 col-xs-7"><br><p>Wondering who is behind the Wigu team and what we're all about?</p><br><p>Click <a href="#about">here</a> to find out more!</p></div>
+							<div class="col-sm-12 col-xs-7"><br><p>Wondering who is behind the Wigu team and what we're all about?</p><br><p>Click <a href="aboutus.php">here</a> to find out more!</p></div>
 						</div>
 					</div>
 					
@@ -238,7 +237,7 @@ Home Page
 							</div>
 							<h2 class="col-sm-12 text-center font-a double-border"><a href="ourgames.php"  class="isHeader">Doctor Life!</a></h2>
 							<div class="rowSpacing col-sm-12 col-xs-5 miniColumn"><a href="ourgames.php"><img class="img-responsive" src="css/images/HomeThumb3.jpg" alt="WIGU thumbnail 3"></a></div>
-							<div class="col-sm-12 col-xs-7"><br><p>Doctor Life on Google Play!</p><br><p>Check out our <a href="/press">Press Kit</a> for more information!</p></div>
+							<div class="col-sm-12 col-xs-7"><br><p>Doctor Life on Google Play!</p><br><p>Check out our <a href="press">Press Kit</a> for more information!</p></div>
 						</div>
 					</div>
 				</div>
@@ -266,9 +265,10 @@ Home Page
 	</div>
 	
 	
-	
+
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.2/js/bootstrap.min.js"></script>
+	<script src="bin/pixi.js"></script>	
 	<script src="js/mainpagecanvas.js"></script>
 
 	<script src="js/wigu.js"></script>

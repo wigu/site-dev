@@ -9,7 +9,7 @@
  	<meta name="keywords" content="wigugames, wigu, game, games, mobile, educational, tween, teen, tweens, teens, kids, children, parents, ios, profession, explore, grow up, young, fun, top, cool, doctor, life, simulation, role-play, roleplay, rpg, simulations, simulator, diagnose, treat, build, doctor life">
 	<meta name="description" content="Developing games for the curious.">
 	<meta name="author" content="WIGU Games">
-
+	<meta name="apple-itunes-app" content="app-id=742028366">
 
 <!--========================================
 Stylesheets
@@ -25,18 +25,18 @@ Stylesheets
 	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script> <!-- Google Maps -->
 	<link rel="shortcut icon" href="favicon.ico" type="image/ico"/>
 	
-<!-- 	<script>
+ 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-	  ga('create', 'UA-42385945-1', 'wigugames.com');
+	  ga('create', 'UA-42385945-1', 'auto');
 	  ga('require', 'displayfeatures');
 	  ga('send', 'pageview');
 
-	</script> -->
-	<script src="bin/pixi.dev.js"></script>
+	</script>
+
 	
 </head>
   
@@ -45,14 +45,14 @@ Stylesheets
 
 
 
-<!-- 		<div id="fb-root"></div>
+	<div id="fb-root"></div>
 		<script>(function(d, s, id) {
 		  var js, fjs = d.getElementsByTagName(s)[0];
 		  if (d.getElementById(id)) return;
 		  js = d.createElement(s); js.id = id;
 		  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=199206370262577";
 		  fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));</script> -->
+	}(document, 'script', 'facebook-jssdk'));</script> 
 
 <!-- ==============================================
 Preloader
@@ -72,10 +72,8 @@ Our Games
 =========================================-->
 	<section id="lifeseries" class="section">
 		<h1>			
-			<a href = "http://bit.ly/1iuImwr" target= "_blank">
-				<img class="img-responsive" src="css/images/header_03.png" alt="WIGU header"/>
-				<p>Our Games</p>
-			</a>
+			<img class="img-responsive" src="css/images/header_03.png" alt="WIGU header"/>
+			<p>Our Games</p>
 		</h1>
 		
 		
@@ -233,10 +231,7 @@ Our Games
 									<br>
 									<div class="row ">
 										<div class="col-xs-3 col-md-6  text-center ">
-											<a href="http://bit.ly/1iuImwr" target = "_blank"><img class="miniColumn img-responsive" src="css/images/btn_appstore.png" alt="Get it on the AppStore!"/></a>
-										</div>
-										<div class="col-xs-3 col-md-6  text-center">
-											<a href="https://play.google.com/store/apps/details?id=com.wigugames.doctorlife" target = "_blank"><img class="miniColumn img-responsive" src="css/images/btn_googleplay.png" alt="Get it on Google Play!"/></a>
+											<a href="https://itunes.apple.com/app/id830350373" target = "_blank"><img class="miniColumn img-responsive" src="css/images/btn_appstore.png" alt="Get it on the AppStore!"/></a>
 										</div>
 									</div>
 									<br>
@@ -316,12 +311,12 @@ Our Games
 									</div>
 									<br>
 									<div class="row ">
-										<div class="col-xs-3 col-md-6  text-center ">
+<!-- 										<div class="col-xs-3 col-md-6  text-center ">
 											<a href="http://bit.ly/1iuImwr" target = "_blank"><img class="miniColumn img-responsive" src="css/images/btn_appstore.png" alt="Get it on the AppStore!"/></a>
 										</div>
 										<div class="col-xs-3 col-md-6  text-center">
 											<a href="https://play.google.com/store/apps/details?id=com.wigugames.doctorlife" target = "_blank"><img class="miniColumn img-responsive" src="css/images/btn_googleplay.png" alt="Get it on Google Play!"/></a>
-										</div>
+										</div>  -->
 									</div>
 									<br>
 								</div>
@@ -400,12 +395,12 @@ Our Games
 									</div>
 									<br>
 									<div class="row ">
-										<div class="col-xs-3 col-md-6  text-center ">
+<!-- 										<div class="col-xs-3 col-md-6  text-center ">
 											<a href="http://bit.ly/1iuImwr" target = "_blank"><img class="miniColumn img-responsive" src="css/images/btn_appstore.png" alt="Get it on the AppStore!"/></a>
 										</div>
 										<div class="col-xs-3 col-md-6  text-center">
 											<a href="https://play.google.com/store/apps/details?id=com.wigugames.doctorlife" target = "_blank"><img class="miniColumn img-responsive" src="css/images/btn_googleplay.png" alt="Get it on Google Play!"/></a>
-										</div>
+										</div> -->
 									</div>
 									<br>
 								</div>
