@@ -493,7 +493,7 @@ background:#fe9843;
 	}
 	}
 /*----Tablets and PCs >768px----*/		
-@media (min-width: 768px){
+@media (min-width: 767px){
 	.mobile-only{
 		display:none;
 	}
