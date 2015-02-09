@@ -491,6 +491,7 @@ background:#fe9843;
 	.isHeader{
 		font-size:100%;
 	}
+	
 	}
 /*----Tablets and PCs >768px----*/		
 @media (min-width: 767px){
@@ -548,7 +549,7 @@ background:#fe9843;
 	}
 
 	.isExtraLarge {
-		font-size:200%
+		font-size:180%
 	}
 }
 
