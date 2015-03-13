@@ -121,19 +121,19 @@ About Us
 				<div class ="wigu-red"></div>
 			  </div>
 			  <div class=" col-sm-1 col-xs-2">
-				<a href="#team-3" role="tab" data-toggle="tab"><img id="avatar-3" img src="css/images/dave.png" data-toggle="popover tab" data-content="Dave" alt="Dave Jayasingam"/></a>
+				<a href="#team-3" role="tab" data-toggle="tab"><img id="avatar-3" img src="css/images/mohan.png" data-toggle="popover tab" data-content="Mohan" alt="Mohan Low"/></a>
 				<div class ="wigu-green"></div>
 			  </div>
 			  <div class=" col-sm-1 col-xs-2">
-				<a href="#team-4" role="tab" data-toggle="tab"><img id="avatar-4" img src="css/images/hongleong.png" data-toggle="popover tab" data-content="Hong Leong" alt="Hong Leong"/></a>
+				<a href="#team-4" role="tab" data-toggle="tab"><img id="avatar-4" img src="css/images/dave.png" data-toggle="popover tab" data-content="Dave" alt="Dave Jayasingam"/></a>
 				<div class ="wigu-green"></div>
  			  </div>
 			  <div class=" col-sm-1 col-xs-2">
-				<a href="#team-5" role="tab" data-toggle="tab"><img id="avatar-5" img src="css/images/unknown.png" data-toggle="popover tab" data-content="You!" alt="You!"/></a>
+				<a href="#team-5" role="tab" data-toggle="tab"><img id="avatar-5" img src="css/images/hongleong.png" data-toggle="popover tab" data-content="Hong Leong" alt="Lum Hong Leong"/></a>
 				<div class ="wigu-green"></div>
  			  </div>
 			  <div class=" col-sm-1 col-xs-2">
-				<a href="#team-6" role="tab" data-toggle="tab"><img id="avatar-6" img src="css/images/unknown.png" data-toggle="popover tab" data-content="You!" alt="You!"/></a>
+				<a href="#team-6" role="tab" data-toggle="tab"><img id="avatar-6" img src="css/images/oru.png" data-toggle="popover tab" data-content="Oliver" alt="Oliver Yeung"/></a>
 				<div class ="wigu-green"></div>
  			  </div>
 			  <div class=" col-sm-1 col-xs-2">
@@ -141,7 +141,7 @@ About Us
 				<div class ="wigu-orange"></div>
  			  </div>
 			  <div class=" col-sm-1 col-xs-2">
-				<a href="#team-8" role="tab" data-toggle="tab"><img id="avatar-8" img src="css/images/unknown.png" data-toggle="popover tab" data-content="You!" alt="You!"/></a>
+				<a href="#team-8" role="tab" data-toggle="tab"><img id="avatar-8" img src="css/images/crystal.png" data-toggle="popover tab" data-content="Crystal" alt="Crystal Lim"/></a>
 				<div class ="wigu-orange"></div>
  			  </div>
 			  <div class=" col-sm-1 col-xs-2">
@@ -149,13 +149,14 @@ About Us
 				<div class ="wigu-orange"></div>
  			  </div>
 			  <div class=" col-sm-1 col-xs-2">
-				<a href="#team-10" role="tab" data-toggle="tab"><img id="avatar-10" img src="css/images/unknown.png" data-toggle="popover tab" data-content="You!" alt="You!"/></a>
+				<a href="#team-10" role="tab" data-toggle="tab"><img id="avatar-10" img src="css/images/cheewei.png" data-toggle="popover tab" data-content="Chee Wei" alt="Chee Wei Chong"/></a>
 				<div class ="wigu-blue"></div>
  			  </div>
 			  <div class=" col-sm-1 col-xs-2">
 				<a href="#team-11" role="tab" data-toggle="tab"><img id="avatar-11" img src="css/images/unknown.png" data-toggle="popover tab" data-content="You!" alt="You!"/></a>
 				<div class ="wigu-blue"></div>
  			  </div>
+
 			  <div class=" col-sm-1 col-xs-2">
 				<a href="#team-12" role="tab" data-toggle="tab"><img id="avatar-12" img src="css/images/unknown.png" data-toggle="popover tab" data-content="You!" alt="You!"/></a>
 				<div class ="wigu-blue"></div>
@@ -168,7 +169,7 @@ About Us
 			  <p class="font-a">Richard Sun (aka Rich) - CEO</p><br>
 			  <p>Richard's background is in finance, having worked in the mergers and acquisitions area with ANZ Bank for many years. He is also a registered lawyer in Australia, having practiced with Herbert Smith Freehills in Sydney. He sits on the board of numerous companies in varying fields ranging from fibre optics telecommunication, palm oil plantation, and CRM software servicing. He has always had a passion for entrepreneurship and an enthusiasm for games. He brings to the team experience in budgeting, cash flow management and fund raising.</p><br><p>Richard holds a double Bachelor’s Degree in Law and Commerce (Finance) from the University of Melbourne, Australia.</p></div>
 			  
-			  <div class="tab-pane" id="team-2"><p class="font-a">Joyce Lim (aka Tilky) - Marketing Director</p><br>
+			  <div class="tab-pane" id="team-2"><p class="font-a">Joyce Lim (aka Jo) - Marketing Director</p><br>
 			  <p>Joyce's background is in commercial law, having practiced as a lawyer with Jackson Lalic Lawyers in Sydney for numerous years, specializing in commercial contracts. She also has had commercial experience in the telecommunications sector. At Wigu Games, she plays a varied role. She is our internal legal counsel, responsible for general contract review. She is also our Marketing Director, crafting campaigns to ensure the great products we make reach the maximum intended audience.</p><br><p>Joyce holds a Double Bachelor's Degree in Law and Commerce (Marketing) from the University of Melbourne, Australia.</p></div>
 			  
 			  <div class="tab-pane" id="team-3"><p class="font-a">Mohan (aka Mo) - Game Director</p><br>
@@ -180,7 +181,7 @@ About Us
 			  <div class="tab-pane" id="team-5"><p class="font-a">Hong Leong (aka HL) - Tinkerer</p><br>
 			  <p>Hong Leong has 2 years experience in Games Development. He initially joined Wigu Games as an intern. Internally, he has made a name for himself for his speed, delivering features and fixes rapidly. He is also known for his dedication, arriving at the office at 6 am and pulling 12 hour days for the entire duration of his internship without fail. He is now a full time programmer and is primarily focused on front end development, although is dabbles in server API calls from time to time. </p><br><p>Hong Leong graduated with Honours from KDU University, Malaysia, with a Bachelor of Games Development majoring in Game Programming.</p></div>
 			  
-			  <div class="tab-pane" id="team-6"><p class="font-a">Oliver (aka Oru) Yeung - Tinkerer</p><br>
+			  <div class="tab-pane" id="team-6"><p class="font-a">Oliver Yeung (aka Oru) - Tinkerer</p><br>
 			  <p>Oru has two years experience in game programming. Prior to joining Wigu Games, Oru was a programmer with Terato Tech and worked on a variety of game products. He has a penchant for planning and structuring code to cater for flexibility and dynamism. He is currently focused on front end games development and also looks after integrations.</p><br><p>Oru graduated with Honours from KDU University, Malaysia, with a Bachelor of Games Development majoring in Game Programming.</p></div>
 			  
 			  <div class="tab-pane" id="team-7"><p class="font-a">Jun Fong (aka Junius) - Game Artist</p><br>
@@ -192,7 +193,7 @@ About Us
 			  <div class="tab-pane" id="team-9"><p class="font-a">This could be you!</p><br>
 			  <p>Interested in joining our team?</p><br><p>Send us an <a href="mailto:hr@wigugames.com">email</a> now!</p></div>
 			  
-			  <div class="tab-pane" id="team-10"><p class="font-a">Chee Wei (aka insert) - Quality Assurer</p><br>
+			  <div class="tab-pane" id="team-10"><p class="font-a">Chee Wei Chong(aka CW) - Quality Assurer</p><br>
 			  <p>Chee Wei is our quality assurer, who detects bugs and technical issues in our games. His excellent attention to detail ensures our games perform as intended and are free of complications. </p><br><p>Chee Wei graduated from INTI International College Subang, Malaysia, with a Diploma in Information & Communication Technology.</p></div>
 			  
 			  <div class="tab-pane" id="team-11"><p class="font-a">This could be you!</p><br>
